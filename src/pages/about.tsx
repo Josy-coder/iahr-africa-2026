@@ -96,7 +96,7 @@ export default function About() {
                                 </p>
 
                                 <p>
-                                    The Congress will feature keynote lectures, technical sessions, workshops, and field visits that highlight Rwanda's innovative approaches to water management and environmental sustainability.
+                                    The Congress will feature keynote lectures, technical sessions, workshops, and field visits that highlight Rwanda&#39;s innovative approaches to water management and environmental sustainability.
                                 </p>
 
                                 <h3 className="text-2xl font-bold text-blue-700 mt-10 mb-4">About IAHR:</h3>

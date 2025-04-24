@@ -31,7 +31,7 @@ const DivisionChair = () => {
                     >
                         <h3 className="text-xl font-semibold text-gray-800 mb-4">Dear Esteemed Participants,</h3>
                         <p className="text-gray-700 mb-6">
-                            The vitality of water research in Africa cannot be overstated. As we convene for the IAHR Africa Congress in Rwanda, let's harness our shared knowledge, passion, and vision for a water-secure future. The challenges are vast, but with our collective expertise and commitment, transformative solutions are within reach. Welcome to a congress of innovation, collaboration, and hope.
+                            The vitality of water research in Africa cannot be overstated. As we convene for the IAHR Africa Congress in Rwanda, let&#39;s harness our shared knowledge, passion, and vision for a water-secure future. The challenges are vast, but with our collective expertise and commitment, transformative solutions are within reach. Welcome to a congress of innovation, collaboration, and hope.
                         </p>
                         <p className="text-gray-700 mb-2">Warm regards,</p>
 

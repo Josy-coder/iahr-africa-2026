@@ -51,7 +51,7 @@ const Location = () => {
                     >
                         <h3 className="text-xl font-semibold text-blue-600 mb-4">Welcome to Kigali</h3>
                         <p className="text-gray-700 mb-6">
-                            Between tradition and modernity, Kigali is a city of unequalled sensations. Strolling through the clean streets and vibrant markets with their shimmering colors, the green city offers you a complete change of scenery. The hills of Kigali provide spectacular views, while the rich cultural experiences and warm hospitality will give a taste of Rwanda's unique charm.
+                            Between tradition and modernity, Kigali is a city of unequalled sensations. Strolling through the clean streets and vibrant markets with their shimmering colors, the green city offers you a complete change of scenery. The hills of Kigali provide spectacular views, while the rich cultural experiences and warm hospitality will give a taste of Rwanda&#39;s unique charm.
                         </p>
                         <p className="text-gray-700 mb-6">
                             Known as the cleanest city in Africa, Kigali combines natural beauty with innovative urban planning and sustainability initiatives, making it an ideal location for discussing water management and environmental solutions.

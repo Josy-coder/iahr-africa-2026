@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import Hero from "@/components/home/Hero";
 
 export default function Sponsorship() {
@@ -42,11 +41,11 @@ export default function Sponsorship() {
                             </p>
 
                             <p className="text-gray-700 mb-6">
-                                This event offers a significant opportunity for prominent organizations to support our mission and contribute to scholarships for African students. By becoming a sponsor, you'll gain visibility among leading water professionals, researchers, and policymakers from across Africa and globally.
+                                This event offers a significant opportunity for prominent organizations to support our mission and contribute to scholarships for African students. By becoming a sponsor, you&#39;ll gain visibility among leading water professionals, researchers, and policymakers from across Africa and globally.
                             </p>
 
                             <p className="text-gray-700 mb-6">
-                                The 7th IAHR Africa Congress will feature several sponsorship tiers, each with unique benefits designed to maximize your organization's exposure before, during, and after the event.
+                                The 7th IAHR Africa Congress will feature several sponsorship tiers, each with unique benefits designed to maximize your organization&#39;s exposure before, during, and after the event.
                             </p>
 
                             <p className="text-gray-700 mb-8">
