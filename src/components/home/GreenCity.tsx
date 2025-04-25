@@ -39,7 +39,7 @@ const GreenCityDetails = () => {
                         className="w-full md:w-1/2"
                     >
                         <h2 className="text-2xl font-bold text-gray-800 mb-4">The Green City of Kigali</h2>
-                        <h3 className="text-xl text-blue-600 mb-6">A sustainable economic, social and cultural ambition</h3>
+                        <h3 className="text-xl text-quaternary mb-6">A sustainable economic, social and cultural ambition</h3>
 
                         <p className="text-gray-700 mb-6">
                             Launched through Rwanda&#39;s Vision 2050, the Green City initiative aims to establish Kigali as a model for sustainable urban development in Africa. The city is pioneering eco-friendly approaches to housing, transportation, waste management, and water conservation.
@@ -50,7 +50,7 @@ const GreenCityDetails = () => {
                         </p>
 
                         <div className="mt-8">
-                            <button className="px-4 py-2 bg-quaternarytext-white rounded hover:bg-blue-700 transition">
+                            <button className="px-4 py-2 bg-quaternary text-white rounded hover:bg-blue-700 transition">
                                 READ MORE
                             </button>
                         </div>

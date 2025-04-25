@@ -49,7 +49,7 @@ const Location = () => {
                         viewport={{ once: true }}
                         className="w-full lg:w-1/2"
                     >
-                        <h3 className="text-xl font-semibold text-blue-600 mb-4">Welcome to Kigali</h3>
+                        <h3 className="text-xl font-semibold text-quaternary mb-4">Welcome to Kigali</h3>
                         <p className="text-gray-700 mb-6">
                             Between tradition and modernity, Kigali is a city of unequalled sensations. Strolling through the clean streets and vibrant markets with their shimmering colors, the green city offers you a complete change of scenery. The hills of Kigali provide spectacular views, while the rich cultural experiences and warm hospitality will give a taste of Rwanda&#39;s unique charm.
                         </p>

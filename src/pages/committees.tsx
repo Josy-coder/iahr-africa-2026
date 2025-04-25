@@ -6,8 +6,8 @@ export default function Committees() {
     return (
         <Layout title="Committees - IAHR Africa Congress 2026">
             {/* Hero Section */}
-            <div className="relative h-96 bg-cover bg-center" style={{ backgroundImage: "url('/images/committees-hero.jpg')" }}>
-                <div className="absolute inset-0 bg-blue-900/70"></div>
+            <div className="relative h-96 bg-cover bg-center" style={{ backgroundImage: "url('/images/committee-hero.jpeg')" }}>
+                <div className="absolute inset-0 bg-black/40"></div>
                 <div className="container mx-auto px-4 h-full relative">
                     <div className="flex flex-col h-full justify-center">
                         <motion.div
@@ -38,7 +38,7 @@ export default function Committees() {
                         className="text-center mb-12"
                     >
                         <h2 className="text-3xl font-bold text-gray-800 mb-4">Scientific Committee</h2>
-                        <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
+                        <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
                     </motion.div>
 
                     <div className="max-w-4xl mx-auto">
@@ -83,7 +83,7 @@ export default function Committees() {
                         className="text-center mb-12"
                     >
                         <h2 className="text-3xl font-bold text-gray-800 mb-4">Organizing Committee</h2>
-                        <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
+                        <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
                     </motion.div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -103,7 +103,7 @@ export default function Committees() {
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-gray-800 mb-2">Prof. Jean Bosco Niyomugabo</h3>
-                                <p className="text-blue-600 font-medium mb-2">Congress Chair</p>
+                                <p className="text-quaternary font-medium mb-2">Congress Chair</p>
                                 <p className="text-gray-600">University of Rwanda</p>
                             </div>
                         </motion.div>
@@ -124,7 +124,7 @@ export default function Committees() {
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-gray-800 mb-2">Prof. Umaru Garba Wali</h3>
-                                <p className="text-blue-600 font-medium mb-2">Congress Co-Chair</p>
+                                <p className="text-quaternary font-medium mb-2">Congress Co-Chair</p>
                                 <p className="text-gray-600">University of Rwanda</p>
                             </div>
                         </motion.div>
@@ -138,14 +138,14 @@ export default function Committees() {
                         >
                             <div className="h-64 overflow-hidden">
                                 <img
-                                    src="/images/committee-secretary.jpg"
+                                    src="/images/profile-placeholder.jpg"
                                     alt="Committee Secretary"
                                     className="w-full h-full object-cover"
                                 />
                             </div>
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-gray-800 mb-2">Dr. Marie Claire Nyiransabimana</h3>
-                                <p className="text-blue-600 font-medium mb-2">Congress Secretary</p>
+                                <p className="text-quaternary font-medium mb-2">Congress Secretary</p>
                                 <p className="text-gray-600">Rwanda Water Resources Board</p>
                             </div>
                         </motion.div>
@@ -176,7 +176,7 @@ export default function Committees() {
                         className="text-center mb-12"
                     >
                         <h2 className="text-3xl font-bold text-gray-800 mb-4">International Advisory Board</h2>
-                        <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
+                        <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
                     </motion.div>
 
                     <div className="max-w-4xl mx-auto">

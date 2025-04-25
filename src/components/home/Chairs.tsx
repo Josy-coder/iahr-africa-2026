@@ -30,7 +30,7 @@ const ChairCard: React.FC<ChairCardProps> = ({ name, title, message, imageSrc })
                     </div>
                     <div className="mt-6 text-center md:text-left">
                         <h4 className="font-medium text-gray-800">{name}</h4>
-                        <p className="text-blue-600">{title}</p>
+                        <p className="text-quaternary">{title}</p>
                     </div>
                 </div>
             </div>

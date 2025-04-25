@@ -11,7 +11,7 @@ interface StatProps {
 const Stat: React.FC<StatProps> = ({ icon, value, label }) => {
     return (
         <div className="flex flex-col items-center">
-            <div className="text-blue-600 mb-3">{icon}</div>
+            <div className="text-quaternary mb-3">{icon}</div>
             <h3 className="text-3xl font-bold text-gray-800 mb-1">{value}</h3>
             <p className="text-gray-600">{label}</p>
         </div>

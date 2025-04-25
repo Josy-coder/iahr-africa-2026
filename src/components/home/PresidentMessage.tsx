@@ -45,7 +45,7 @@ const PresidentMessage = () => {
 
                 <div className="text-center mt-6">
                     <h4 className="font-medium text-gray-800">Prof. Joseph Sang</h4>
-                    <p className="text-blue-600">President, IAHR</p>
+                    <p className="text-quaternary">President, IAHR</p>
                 </div>
             </div>
         </section>

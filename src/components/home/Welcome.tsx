@@ -55,7 +55,7 @@ const Welcome: React.FC<WelcomeProps> = ({ presidentName, presidentTitle }) => {
 
                             <div className="mt-6">
                                 <h4 className="font-semibold text-gray-800">{presidentTitle}</h4>
-                                <p className="text-blue-600 font-medium">{presidentName}</p>
+                                <p className="text-quaternary font-medium">{presidentName}</p>
                             </div>
                         </motion.div>
                     </div>

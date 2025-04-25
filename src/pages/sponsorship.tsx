@@ -50,7 +50,7 @@ export default function Sponsorship() {
 
                             <p className="text-gray-700 mb-8">
                                 For more information about sponsorship opportunities, please contact us at{' '}
-                                <a href="mailto:contact@iahr-af2026.com" className="text-blue-600 hover:underline">
+                                <a href="mailto:contact@iahr-af2026.com" className="text-quaternary hover:underline">
                                     contact@iahr-af2026.com
                                 </a>
                             </p>

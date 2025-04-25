@@ -159,7 +159,7 @@ export default function Program() {
                         className="text-center mb-12"
                     >
                         <h2 className="text-3xl font-bold text-gray-800 mb-4">Themes and Sub-themes</h2>
-                        <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
+                        <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
                         <p className="text-gray-600 max-w-2xl mx-auto">
                             The 7th IAHR Africa Congress is organized around eight themes, offering an integrative and
                             interdisciplinary platform where science, engineering, and policy converge to address Africa&#39;s water challenges.
@@ -241,7 +241,7 @@ export default function Program() {
                                 <li>Full papers will undergo a review process for final acceptance.</li>
                             </ul>
 
-                            <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition duration-300">
+                            <button className="px-6 py-3 bg-quaternary hover:bg-blue-700 text-white rounded-md transition duration-300">
                                 Register Interest
                             </button>
                         </motion.div>

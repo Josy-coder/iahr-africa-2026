@@ -37,7 +37,7 @@ const DivisionChair = () => {
 
                         <div className="mt-4">
                             <h4 className="font-medium text-gray-800">Prof. Adebayo Adeloye</h4>
-                            <p className="text-blue-600">Africa Division Chair, IAHR</p>
+                            <p className="text-quaternary">Africa Division Chair, IAHR</p>
                         </div>
                     </motion.div>
                 </div>
