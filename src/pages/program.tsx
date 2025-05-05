@@ -53,90 +53,72 @@ const ThemeSection: React.FC<ThemeSectionProps> = ({ title, subthemes, image, is
 export default function Program() {
     const themes = [
         {
-            title: "Climate change-induced droughts and floods",
-            subthemes: [
-                "Monitoring and warning systems",
-                "Risk assessment",
-                "Resilience capacities"
-            ],
-            image: "/images/theme-climate.jpeg"
-        },
-        {
-            title: "River basins management",
-            subthemes: [
-                "Hydrometry and database development",
-                "Hydrology and hydraulic modelling",
-                "Best practices for transboundary river basins management"
-            ],
-            image: "/images/theme-river.jpeg"
-        },
-        {
-            title: "Hydraulic structures",
-            subthemes: [
-                "Hydraulic structures design and safety",
-                "Hydropower for sustainable energy",
-                "Nature based solutions"
-            ],
-            image: "/images/theme-hydraulic.jpg"
-        },
-        {
-            title: "Urban water and wastewater",
+            title: "Water Supply Technologies and Services",
             subthemes: [
                 "Water supply systems",
-                "Sewage systems, recycling and reuse",
-                "Desalination and water treatment"
+                "Water treatment innovations",
+                "Water quality monitoring"
+            ],
+            image: "/images/theme-water-supply.jpeg"
+        },
+        {
+            title: "Sanitation Technologies and Services",
+            subthemes: [
+                "Wastewater treatment systems",
+                "Sanitation infrastructure",
+                "Recycling and reuse technologies"
+            ],
+            image: "/images/theme-sanitation.jpeg"
+        },
+        {
+            title: "Integrated Water Management and Planning",
+            subthemes: [
+                "Integrated water resources management",
+                "Transboundary water governance",
+                "Water policy and regulation"
+            ],
+            image: "/images/theme-integrated.jpeg"
+        },
+        {
+            title: "Urban Resilience in African Cities",
+            subthemes: [
+                "Climate-resilient urban infrastructure",
+                "Sustainable urban water management",
+                "Water-sensitive urban design"
             ],
             image: "/images/theme-urban.jpeg"
         },
         {
-            title: "Groundwater hydraulics and Management",
+            title: "Flood and Drought Management",
             subthemes: [
-                "Flow and quality monitoring and modelling",
-                "Groundwater recharge",
-                "Coastal aquifer management"
+                "Risk assessment and modeling",
+                "Early warning systems",
+                "Climate adaptation strategies"
             ],
-            image: "/images/theme-groundwater.jpeg"
+            image: "/images/theme-flood.jpeg"
         },
         {
-            title: "Lakes, estuaries and coasts",
+            title: "Wetlands and Critical Ecosystems Management",
             subthemes: [
-                "Lake management",
-                "Coastal engineering",
-                "Estuaries and wetlands ecology"
+                "Wetland restoration and conservation",
+                "Ecosystem services valuation",
+                "Nature-based solutions"
             ],
-            image: "/images/theme-lakes.jpeg"
-        },
-        {
-            title: "Hydroinformatics for smart water management",
-            subthemes: [
-                "Modeling tools",
-                "Artificial Intelligence applications",
-                "Remote sensing and IoT for water data exchange"
-            ],
-            image: "/images/theme-hydroinformatics.jpeg"
-        },
-        {
-            title: "Water governance",
-            subthemes: [
-                "Sustainable Development Goals",
-                "Institutional water management",
-                "Water policies at national and territorial levels",
-                "Financing of water supply and wastewater treatment and reuse",
-                "Data availability, access and decision support systems"
-            ],
-            image: "/images/theme-governance.jpeg"
+            image: "/images/theme-wetlands.jpeg"
         }
     ];
 
     return (
         <Layout title="Program - IAHR Africa Congress 2026">
             {/* Hero Section */}
-            <div className="relative h-96 bg-cover bg-center" style={{ backgroundImage: "url('/images/conference.jpeg')" }}>
+            <div className="relative h-96 bg-cover bg-center"
+                 style={{backgroundImage: "url('/images/conference.jpeg')"}}>
                 <div className="absolute inset-0 bg-black/40"></div>
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
                     <h1 className="text-4xl font-bold mb-6">Congress Program</h1>
                     <p className="text-xl text-center max-w-2xl mb-8">
-                        Explore our themes and plan your participation in the 7th IAHR Africa Congress
+                        Theme: Water Resilience & Innovation<br/>
+                        December 8-11, 2026 | Kigali, Rwanda
                     </p>
                 </div>
             </div>
@@ -144,7 +126,7 @@ export default function Program() {
             {/* Countdown Timer */}
             <div className="bg-quaternary py-8">
                 <div className="container mx-auto px-4">
-                    <CountdownTimer targetDate="2026-10-12T00:00:00" />
+                    <CountdownTimer targetDate="2026-12-08T00:00:00"/>
                 </div>
             </div>
 
@@ -152,17 +134,18 @@ export default function Program() {
             <section className="py-16 px-4">
                 <div className="container mx-auto">
                     <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.7 }}
-                        viewport={{ once: true }}
+                        initial={{opacity: 0, y: 20}}
+                        whileInView={{opacity: 1, y: 0}}
+                        transition={{duration: 0.7}}
+                        viewport={{once: true}}
                         className="text-center mb-12"
                     >
-                        <h2 className="text-3xl font-bold text-gray-800 mb-4">Themes and Sub-themes</h2>
+                        <h2 className="text-3xl font-bold text-gray-800 mb-4">Congress Sub-Themes</h2>
                         <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
                         <p className="text-gray-600 max-w-2xl mx-auto">
-                            The 7th IAHR Africa Congress is organized around eight themes, offering an integrative and
-                            interdisciplinary platform where science, engineering, and policy converge to address Africa&#39;s water challenges.
+                            The 7th IAHR Africa Congress is organized around six integrative sub-themes, offering an
+                            interdisciplinary platform where science, engineering, and societal policy converge to
+                            address Africa&#39;s water challenges.
                         </p>
                     </motion.div>
 
@@ -180,23 +163,82 @@ export default function Program() {
                 </div>
             </section>
 
-            {/* Program Schedule - Placeholder */}
+            {/* Program Schedule */}
             <section className="py-16 px-4 bg-gray-50">
                 <div className="container mx-auto">
                     <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.7 }}
-                        viewport={{ once: true }}
+                        initial={{opacity: 0, y: 20}}
+                        whileInView={{opacity: 1, y: 0}}
+                        transition={{duration: 0.7}}
+                        viewport={{once: true}}
                         className="text-center mb-12"
                     >
-                        <h2 className="text-3xl font-bold text-gray-800 mb-4">Program Schedule</h2>
+                        <h2 className="text-3xl font-bold text-gray-800 mb-4">Program Overview</h2>
                         <div className="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
-                        <p className="text-gray-600 max-w-2xl mx-auto">
-                            The detailed program schedule will be announced closer to the event. Stay tuned for updates on keynote speakers,
-                            presentations, workshops, and social events.
-                        </p>
                     </motion.div>
+
+                    <div className="overflow-x-auto">
+                        <table className="w-full border-collapse">
+                            <thead>
+                            <tr className="bg-quaternary text-white">
+                                <th className="p-4 text-left border border-gray-300">TUESDAY 08 DECEMBER</th>
+                                <th className="p-4 text-left border border-gray-300">DAILY SCHEDULE (WEDNESDAY –
+                                    FRIDAY)
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr className="bg-white">
+                                <td className="p-4 text-left border border-gray-300">09:00 – 15:00 |
+                                    SHORTCOURSES/WORKSHOPS
+                                </td>
+                                <td className="p-4 text-left border border-gray-300">KEYNOTE PLENARY | 09:00 – 10:00
+                                </td>
+                            </tr>
+                            <tr className="bg-gray-50">
+                                <td className="p-4 text-left border border-gray-300">16:00 – 17:30 | OPENING CEREMONY
+                                </td>
+                                <td className="p-4 text-left border border-gray-300">COFFEE BREAK | 10:00 – 10:30</td>
+                            </tr>
+                            <tr className="bg-white">
+                                <td className="p-4 text-left border border-gray-300">17:30 – 18:00 | TOAST – EXHIBITION
+                                    OPENING
+                                </td>
+                                <td className="p-4 text-left border border-gray-300">SESSION 1 | 10:30 – 12:00</td>
+                            </tr>
+                            <tr className="bg-gray-50">
+                                <td className="p-4 text-left border border-gray-300">18:00 – 20:00 | WELCOME RECEPTION
+                                </td>
+                                <td className="p-4 text-left border border-gray-300">LUNCH | 12:00 – 14:00</td>
+                            </tr>
+                            <tr className="bg-white">
+                                <td className="p-4 text-left border border-gray-300"></td>
+                                <td className="p-4 text-left border border-gray-300">SESSION 2 | 14:00 – 15:30 (Not
+                                    Thursday & Friday)
+                                </td>
+                            </tr>
+                            <tr className="bg-gray-50">
+                                <td className="p-4 text-left border border-gray-300"></td>
+                                <td className="p-4 text-left border border-gray-300">COFFEE BREAK | 15:30 – 16:00 (Not
+                                    Thursday & Friday)
+                                </td>
+                            </tr>
+                            <tr className="bg-white">
+                                <td className="p-4 text-left border border-gray-300"></td>
+                                <td className="p-4 text-left border border-gray-300">SESSION 3 | 16:00 – 17:00 (Not
+                                    Thursday & Friday)
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div className="mt-12">
+                        <p className="text-center text-gray-600">
+                            The detailed program including keynote speakers, paper presentations, and special sessions
+                            will be announced closer to the event date.
+                        </p>
+                    </div>
                 </div>
             </section>
 
@@ -205,10 +247,10 @@ export default function Program() {
                 <div className="container mx-auto">
                     <div className="flex flex-col md:flex-row gap-8">
                         <motion.div
-                            initial={{ opacity: 0, x: -20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.7 }}
-                            viewport={{ once: true }}
+                            initial={{opacity: 0, x: -20}}
+                            whileInView={{opacity: 1, x: 0}}
+                            transition={{duration: 0.7}}
+                            viewport={{once: true}}
                             className="w-full md:w-1/2"
                         >
                             <img
@@ -219,10 +261,10 @@ export default function Program() {
                         </motion.div>
 
                         <motion.div
-                            initial={{ opacity: 0, x: 20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.7, delay: 0.2 }}
-                            viewport={{ once: true }}
+                            initial={{opacity: 0, x: 20}}
+                            whileInView={{opacity: 1, x: 0}}
+                            transition={{duration: 0.7, delay: 0.2}}
+                            viewport={{once: true}}
                             className="w-full md:w-1/2"
                         >
                             <h3 className="text-2xl font-bold text-gray-800 mb-6">Abstract Submission</h3>
@@ -230,18 +272,33 @@ export default function Program() {
                             <h4 className="text-xl font-semibold text-quaternary mb-4">Abstract Submission Process:</h4>
                             <ul className="list-disc pl-6 text-gray-700 mb-8 space-y-2">
                                 <li>The online abstract submission process will open in early 2026.</li>
-                                <li>Submit your abstracts by June 2026 through our submission portal.</li>
+                                <li>Submit your abstracts by September 2026 through our submission portal.</li>
                                 <li>All abstracts will undergo peer review.</li>
                                 <li>Selected contributors will be notified within 4-6 weeks of submission.</li>
                             </ul>
 
                             <h4 className="text-xl font-semibold text-quaternary mb-4">Full Paper Submission:</h4>
                             <ul className="list-disc pl-6 text-gray-700 mb-8 space-y-2">
-                                <li>Authors interested in submitting full papers for proceedings are welcome to do so within six weeks after abstract notification.</li>
+                                <li>Authors interested in submitting full papers for proceedings are welcome to do so
+                                    within six weeks after abstract notification.
+                                </li>
                                 <li>Full papers will undergo a review process for final acceptance.</li>
                             </ul>
 
-                            <button className="px-6 py-3 bg-quaternary hover:bg-blue-700 text-white rounded-md transition duration-300">
+                            <h4 className="text-xl font-semibold text-quaternary mb-4">Hohai-Africa Student Paper
+                                Competition Award:</h4>
+                            <ul className="list-disc pl-6 text-gray-700 mb-4">
+                                <li>1st Prize: $1,500</li>
+                                <li>2nd Prize: $1,000</li>
+                                <li>3rd Prize: $500</li>
+                            </ul>
+                            <p className="text-gray-700 mb-6">
+                                Recognizing outstanding undergraduate and postgraduate student papers aligned with
+                                congress themes. Sponsored by Hohai University and IAHR Africa Division.
+                            </p>
+
+                            <button
+                                className="px-6 py-3 bg-quaternary hover:bg-blue-700 text-white rounded-md transition duration-300">
                                 Register Interest
                             </button>
                         </motion.div>

@@ -11,28 +11,27 @@ import GreenCitySection from '../components/home/GreenCity';
 import Organizers from '../components/home/Organizers';
 
 export default function Home() {
-  return (
-      <Layout title="IAHR Africa Congress 2026 - Kigali, Rwanda">
-        <Hero />
+    return (
+        <Layout title="IAHR Africa Congress 2026 - Kigali, Rwanda">
+            <Hero />
 
-        <Welcome
-            presidentName="Dr. Valentine Uwamariya"
-            presidentTitle="Minister of Education, Rwanda"
-        />
+            <Welcome />
 
-        <Chairs />
+            <Chairs />
 
-        <PresidentMessage />
+            <PresidentMessage />
 
-        <DivisionChair />
+            <DivisionChair />
 
-        <UniversityStats />
 
-        <Location />
+            <UniversityStats />
 
-        <GreenCitySection />
+            <Location />
 
-        <Organizers />
-      </Layout>
-  );
+            <GreenCitySection />
+
+
+            <Organizers />
+        </Layout>
+    );
 }

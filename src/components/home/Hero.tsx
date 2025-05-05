@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 const Hero = () => {
     return (
         <div className="relative h-[550px] bg-gray-100 overflow-hidden">
-            {/* Background Image - Replace with actual image of Rwanda/Kigali */}
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
@@ -29,11 +28,10 @@ const Hero = () => {
                     <h3 className="text-xl text-gray-700 mb-4">RWANDA</h3>
 
                     <div className="border-t border-b border-gray-300 py-3 my-4">
-                        <p className="font-medium">Hosted by</p>
-                        <p className="text-gray-700">Rwanda Water Resources Board</p>
+                        <p className="font-medium">Theme: Water Resilience & Innovation</p>
                     </div>
 
-                    <p className="text-xl font-semibold text-gray-800">12 - 15 OCTOBER 2026</p>
+                    <p className="text-xl font-semibold text-gray-800">8 - 11 DECEMBER 2026</p>
                 </motion.div>
             </div>
         </div>

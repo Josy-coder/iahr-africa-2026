@@ -41,15 +41,15 @@ const ChairCard: React.FC<ChairCardProps> = ({ name, title, message, imageSrc })
 const Chairs = () => {
     const chairpersons = [
         {
-            name: "Prof. Jean Bosco Niyomugabo",
-            title: "Co-Chairperson, IAHR Africa Congress 2026",
-            message: "All Involved in the Future of Water, The cornerstone of progress in addressing Africa's complex water challenges has always been research, academia, and rigorous scientific inquiry. As the IAHR Africa Congress continues its journey, the University of Rwanda is privileged to be at the epicenter of this scientific collaboration, seeking tangible solutions for real-world water challenges.",
+            name: "Prof. Ignace GATARE",
+            title: "Congress Chair, 7th IAHR Africa Congress 2026",
+            message: "The University of Rwanda stands as a beacon of excellence, shaping a new generation of leaders and innovators dedicated to Africa's sustainable development. Through a model anchored in research, innovation, and entrepreneurial spirit, our programs directly address the continent's pressing challenges — from food security to urban resilience, and climate-responsive public policies.",
             imageSrc: "/images/profile-placeholder.jpg"
         },
         {
-            name: "Prof. Umaru Garba Wali",
-            title: "Co-Chairperson, IAHR Africa Congress 2026",
-            message: "To the Esteemed Participants and Water Visionaries, The intricate tapestry of Africa's water challenges is interwoven with immense opportunities, many of which remain untapped. As we converge for the IAHR Africa Congress in Rwanda, it represents a testament to our unwavering commitment to Africa's water future.",
+            name: "Prof. Omar MUNYANEZA",
+            title: "Co-Chair, 7th IAHR Africa Congress 2026",
+            message: "Dear Participants and Water Sector Leaders, Africa's future depends on our collective ability to transform challenges into opportunities. This Congress is more than a scientific gathering; it is a call to action. Together, through evidence-based solutions, applied research, and shared expertise, we can secure resilient, sustainable water futures for our communities.",
             imageSrc: "/images/profile-placeholder.jpg"
         }
     ];

@@ -29,14 +29,14 @@ const DivisionChair = () => {
                         viewport={{ once: true }}
                         className="w-full md:w-3/4"
                     >
-                        <h3 className="text-xl font-semibold text-gray-800 mb-4">Dear Esteemed Participants,</h3>
+                        <h3 className="text-xl font-semibold text-gray-800 mb-4">Dear Friends and Colleagues,</h3>
                         <p className="text-gray-700 mb-6">
-                            The vitality of water research in Africa cannot be overstated. As we convene for the IAHR Africa Congress in Rwanda, let&#39;s harness our shared knowledge, passion, and vision for a water-secure future. The challenges are vast, but with our collective expertise and commitment, transformative solutions are within reach. Welcome to a congress of innovation, collaboration, and hope.
+                            The challenges facing Africa&#39;s water sector are immense — yet so too are the opportunities. This Congress convenes a diverse, dynamic community of researchers, practitioners, and decision-makers ready to co-create transformative solutions. Let us embrace this opportunity for collaboration, innovation, and solidarity as we work towards a sustainable, climate-resilient water future for Africa.
                         </p>
                         <p className="text-gray-700 mb-2">Warm regards,</p>
 
                         <div className="mt-4">
-                            <h4 className="font-medium text-gray-800">Prof. Adebayo Adeloye</h4>
+                            <h4 className="font-medium text-gray-800">Prof. Moez Louati</h4>
                             <p className="text-quaternary">Africa Division Chair, IAHR</p>
                         </div>
                     </motion.div>
