@@ -147,66 +147,6 @@ export default function Participate() {
                 </div>
             </section>
 
-            {/* Additional Info Cards */}
-            <section className="py-12 px-4 bg-gray-50">
-                <div className="container mx-auto">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7, delay: 0.1 }}
-                            viewport={{ once: true }}
-                            className="bg-white p-6 rounded-lg shadow-md"
-                        >
-                            <div className="text-primary mb-4">
-                                <Mail size={32} />
-                            </div>
-                            <h3 className="text-xl font-bold text-gray-800 mb-4">Contact Information</h3>
-                            <p className="text-gray-600 mb-2">
-                                For registration inquiries, please contact us at{' '}
-                                <a href="mailto:contact@iahr-af2026.com" className="text-primary hover:underline">
-                                    contact@iahr-af2026.com
-                                </a>
-                            </p>
-                        </motion.div>
-
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7, delay: 0.2 }}
-                            viewport={{ once: true }}
-                            className="bg-white p-6 rounded-lg shadow-md"
-                        >
-                            <div className="text-primary mb-4">
-                                <Info size={32} />
-                            </div>
-                            <h3 className="text-xl font-bold text-gray-800 mb-4">Why Rwanda?</h3>
-                            <p className="text-gray-600 mb-4">
-                                Rwanda has established itself as the hub for hybrid meetings and conventions in Africa, with excellent facilities and connectivity.
-                            </p>
-                            <p className="text-gray-600">
-                                Getting around Kigali is easy with high-quality roads, good traffic management, and reliable public transport options.
-                            </p>
-                        </motion.div>
-
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7, delay: 0.3 }}
-                            viewport={{ once: true }}
-                            className="bg-white p-6 rounded-lg shadow-md"
-                        >
-                            <div className="text-primary mb-4">
-                                <AlertTriangle size={32} />
-                            </div>
-                            <h3 className="text-xl font-bold text-gray-800 mb-4">Visa Information</h3>
-                            <p className="text-gray-600">
-                                Digital e-Visa system available. Visa on arrival for AU, Commonwealth, and La Francophonie countries. Accommodation options include over 5,000 hotel rooms across various price ranges.
-                            </p>
-                        </motion.div>
-                    </div>
-                </div>
-            </section>
 
             {/* Registration Form */}
             <section id="registration-form" className="py-16 px-4 bg-white">
@@ -224,38 +164,6 @@ export default function Participate() {
                         </p>
                     </motion.div>
 
-                    <div className="max-w-4xl mx-auto">
-                        <h3 className="text-2xl font-bold text-quaternary mb-6">Explore Rwanda</h3>
-                        <p className="text-gray-700 mb-6">
-                            Maximize your visit to Rwanda by exploring its natural wonders and cultural heritage:
-                        </p>
-                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                            <li className="flex items-start">
-                                <span className="text-quaternary font-bold mr-2">•</span>
-                                <span className="text-gray-700">Akagera National Park: Enjoy a thrilling Big Five safari, 2.5 hours from Kigali.</span>
-                            </li>
-                            <li className="flex items-start">
-                                <span className="text-quaternary font-bold mr-2">•</span>
-                                <span className="text-gray-700">Lake Kivu: Kayak, take boat trips, or relax at lakeside resorts.</span>
-                            </li>
-                            <li className="flex items-start">
-                                <span className="text-quaternary font-bold mr-2">•</span>
-                                <span className="text-gray-700">Bisoke Crater Lake Hike: Trek to the crater lake in Volcanoes National Park.</span>
-                            </li>
-                            <li className="flex items-start">
-                                <span className="text-quaternary font-bold mr-2">•</span>
-                                <span className="text-gray-700">Gishwati-Mukura Biosphere Reserve: Discover a UNESCO biodiversity treasure.</span>
-                            </li>
-                            <li className="flex items-start">
-                                <span className="text-quaternary font-bold mr-2">•</span>
-                                <span className="text-gray-700">Gorilla Trekking: Meet mountain gorillas in Volcanoes National Park.</span>
-                            </li>
-                            <li className="flex items-start">
-                                <span className="text-quaternary font-bold mr-2">•</span>
-                                <span className="text-gray-700">Nyungwe National Park: Explore ancient rainforests and observe over 300 bird species.</span>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </section>
         </Layout>

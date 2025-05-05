@@ -19,11 +19,6 @@ const PresidentMessage = () => {
                         <p className="text-gray-700 mb-6">
                             Following the success of our previous edition in Morocco, this congress continues to be a flagship event uniting leading experts, policymakers, and young professionals tackling climate resilience and water security challenges across Africa and globally. Your presence will enrich vital conversations and contribute to shaping innovative, actionable pathways for a better future.
                         </p>
-                        <div className="flex justify-start mt-4">
-                            <button className="px-4 py-2 bg-quaternary text-white rounded hover:bg-blue-700 transition">
-                                READ MORE
-                            </button>
-                        </div>
                     </motion.div>
 
                     <motion.div

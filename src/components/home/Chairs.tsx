@@ -23,11 +23,6 @@ const ChairCard: React.FC<ChairCardProps> = ({ name, title, message, imageSrc })
                 </div>
                 <div className="w-full md:w-2/3 p-6">
                     <p className="text-gray-600 mb-4">{message}</p>
-                    <div className="flex justify-end mt-4">
-                        <button className="px-4 py-2 bg-quaternary text-white rounded hover:bg-blue-700 transition">
-                            READ MORE
-                        </button>
-                    </div>
                     <div className="mt-6 text-center md:text-left">
                         <h4 className="font-medium text-gray-800">{name}</h4>
                         <p className="text-quaternary">{title}</p>
@@ -57,6 +52,18 @@ const Chairs = () => {
     return (
         <section className="py-16 px-4 bg-gray-50">
             <div className="container mx-auto">
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.7 }}
+                    viewport={{ once: true }}
+                    className="text-center mb-12"
+                >
+                    <h2 className="text-3xl font-bold text-gray-800 mb-4">
+                        WELCOME TO THE 7TH IAHR AFRICA CONGRESS
+                    </h2>
+                    <div className="w-24 h-1 bg-primary mx-auto"></div>
+                </motion.div>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}

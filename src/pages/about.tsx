@@ -29,22 +29,6 @@ export default function About() {
                 </div>
             </div>
 
-            {/* Quick Links */}
-            <div className="bg-quaternary text-white">
-                <div className="container mx-auto px-4">
-                    <div className="flex flex-wrap">
-                        <Link href="/participate" className="flex-1 py-6 text-center border-r border-blue-600 hover:bg-blue-800 transition-colors">
-                            Registration
-                        </Link>
-                        <Link href="/program" className="flex-1 py-6 text-center border-r border-blue-600 hover:bg-blue-800 transition-colors">
-                            Program
-                        </Link>
-                        <Link href="/participate" className="flex-1 py-6 text-center hover:bg-blue-800 transition-colors">
-                            Student Paper Competition Award
-                        </Link>
-                    </div>
-                </div>
-            </div>
 
             {/* Mark Your Calendar */}
             <section className="py-16 px-4 bg-white">
