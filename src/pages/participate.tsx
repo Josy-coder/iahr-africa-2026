@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import { motion } from 'framer-motion';
-import { Mail, Info, AlertTriangle } from 'lucide-react';
 import CountdownTimer from '../components/common/CountdownTimer';
 
 export default function Participate() {
