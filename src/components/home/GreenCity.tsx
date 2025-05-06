@@ -19,8 +19,17 @@ const GreenCity = () => {
                     viewport={{ once: true }}
                     className="text-4xl font-bold text-white mb-8"
                 >
-                    The Green City of Kigali, a sustainable economic, social and cultural ambition
+                    Discover RWANDA
                 </motion.h2>
+                <motion.h3
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.7, delay: 0.2 }}
+                    viewport={{ once: true }}
+                    className="text-2xl font-semibold text-yellow-400 mb-6"
+                >
+                    The Land of a Thousand Hills
+                </motion.h3>
             </div>
         </section>
     );
@@ -36,40 +45,30 @@ const GreenCityDetails = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.7 }}
                         viewport={{ once: true }}
-                        className="w-full md:w-1/2"
+                        className="w-full md:w-full"
                     >
-                        <h2 className="text-2xl font-bold text-gray-800 mb-4">The Green City of Kigali</h2>
-                        <h3 className="text-xl text-quaternary mb-6">A sustainable economic, social and cultural ambition</h3>
+                        <h2 className="text-3xl font-bold text-blue-500 mb-6">WHY RWANDA?</h2>
 
-                        <p className="text-gray-700 mb-6">
-                            Launched through Rwanda&#39;s Vision 2050, the Green City initiative aims to establish Kigali as a model for sustainable urban development in Africa. The city is pioneering eco-friendly approaches to housing, transportation, waste management, and water conservation.
+                        <p className="text-gray-800 mb-6">
+                            Rwanda has established itself as the hub for hybrid meetings and conventions in Africa.
+                            Moreover, Rwanda is perceived as the leading African destination for first class
+                            incentives and events. Also, being one of the leading MICE destinations in the Africa,
+                            Rwanda national airline flies to over 30 destinations and the network is growing. Major
+                            airlines that fly to Kigali international airport include KLM, Qatar, emirates, Ethiopian
+                            airline and Kenyan airlines. All these advantages make Rwanda an ideal destination for
+                            the IAHR 2026 Africa Congress.
                         </p>
 
-                        <p className="text-gray-700 mb-6">
-                            With its innovation hub, renewable energy infrastructure, and commitment to green spaces, Kigali is positioning itself as a world-class example of how African cities can address environmental challenges while promoting economic growth and quality of life for residents.
+                        <p className="text-gray-800 mb-6">
+                            Kigali is easy to move around. In fact, transport in Kigali has improved massively in
+                            recent years. High quality roads, decent traffic management, robust public transport,
+                            and the introduction of ride hailing apps making easierthan most majorcities in
+                            Africa.The city of Kigali has restored urban wetland / Ecotourism Parks that can be
+                            considered in organizing the pre or post congress technical tours, to explore restored
+                            ecosystems, including a fig forest of native species, rehabilitated streams, and ponds for
+                            flood alleviation of the wetland and the reed-bed for pollution abatement of the
+                            wetland.
                         </p>
-
-                        <div className="mt-8">
-                            <button className="px-4 py-2 bg-quaternary text-white rounded hover:bg-blue-700 transition">
-                                READ MORE
-                            </button>
-                        </div>
-                    </motion.div>
-
-                    <motion.div
-                        initial={{ opacity: 0, x: 20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.7, delay: 0.2 }}
-                        viewport={{ once: true }}
-                        className="w-full md:w-1/2"
-                    >
-                        <div className="h-full">
-                            <img
-                                src="/images/kigali-development.jpg"
-                                alt="Green City Project"
-                                className="w-full h-full object-cover rounded-lg shadow-md"
-                            />
-                        </div>
                     </motion.div>
                 </div>
             </div>

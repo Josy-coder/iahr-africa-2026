@@ -30,7 +30,7 @@ const PresidentMessage = () => {
                     >
                         <div className="rounded-full overflow-hidden w-48 h-48 bg-gray-200">
                             <img
-                                src="/images/profile-placeholder.jpg"
+                                src="/images/philippe_gourbesville.jpeg"
                                 alt="IAHR President"
                                 className="w-full h-full object-cover"
                             />

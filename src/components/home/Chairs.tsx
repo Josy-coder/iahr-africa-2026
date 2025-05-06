@@ -17,7 +17,7 @@ const ChairCard: React.FC<ChairCardProps> = ({ name, title, message, imageSrc })
                         <img
                             src={imageSrc}
                             alt={name}
-                            className="w-full h-full object-cover object-center"
+                            className="w-full h-full object-contain object-center"
                         />
                     </div>
                 </div>
@@ -39,13 +39,13 @@ const Chairs = () => {
             name: "Prof. Ignace GATARE",
             title: "Congress Chair, 7th IAHR Africa Congress 2026",
             message: "The University of Rwanda stands as a beacon of excellence, shaping a new generation of leaders and innovators dedicated to Africa's sustainable development. Through a model anchored in research, innovation, and entrepreneurial spirit, our programs directly address the continent's pressing challenges — from food security to urban resilience, and climate-responsive public policies.",
-            imageSrc: "/images/profile-placeholder.jpg"
+            imageSrc: "/images/ignace_gatare.jpg"
         },
         {
             name: "Prof. Omar MUNYANEZA",
             title: "Co-Chair, 7th IAHR Africa Congress 2026",
             message: "Dear Participants and Water Sector Leaders, Africa's future depends on our collective ability to transform challenges into opportunities. This Congress is more than a scientific gathering; it is a call to action. Together, through evidence-based solutions, applied research, and shared expertise, we can secure resilient, sustainable water futures for our communities.",
-            imageSrc: "/images/profile-placeholder.jpg"
+            imageSrc: "/images/Omar_Munyaneza.jpg"
         }
     ];
 

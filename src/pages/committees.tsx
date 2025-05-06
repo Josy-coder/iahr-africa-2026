@@ -22,7 +22,7 @@ const CommitteeMember: React.FC<CommitteeMemberProps> = ({ name, title, organiza
                 <img
                     src={imageSrc}
                     alt={name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                 />
             </div>
             <div className="p-6">
@@ -40,73 +40,73 @@ export default function Committees() {
             name: "François X. Tetero",
             title: "Chair",
             organization: "GWPRW",
-            imageSrc: "/images/committee/francois-tetero.jpg"
+            imageSrc: "/images/Tetero.jpg"
         },
         {
             name: "Dr. Hussein Bizimana",
             title: "Co-Chair",
             organization: "UR-CST",
-            imageSrc: "/images/committee/hussein-bizimana.jpg"
+            imageSrc: "/images/Hussein-Bizimana.png"
         },
         {
             name: "Mugwaneza I. Benigne",
             title: "Co-Chair",
             organization: "RYWP",
-            imageSrc: "/images/committee/mugwaneza-benigne.jpg"
+            imageSrc: "/images/Benigne.jpg"
         },
         {
             name: "Dr. Abaho Gershome",
             title: "Co-Chair",
             organization: "UR-CST",
-            imageSrc: "/images/committee/abaho-gershome.jpg"
+            imageSrc: "/images/Gershome-Abaho-G.png"
         },
         {
             name: "Davis Bugingo",
             title: "Member",
             organization: "RWB",
-            imageSrc: "/images/committee/davis-bugingo.jpg"
+            imageSrc: "/images/Davis.jpg"
         },
         {
             name: "Francine Mbateye",
             title: "Member",
             organization: "WASAC",
-            imageSrc: "/images/committee/francine-mbateye.jpg"
+            imageSrc: "/images/Francine.jpeg"
         },
         {
             name: "Tuyikunde G. Divine",
             title: "Budget",
             organization: "RYWP",
-            imageSrc: "/images/committee/tuyikunde-divine.jpg"
+            imageSrc: "/images/Divine.jpg"
         },
         {
             name: "Alice Mutoni",
             title: "Member",
             organization: "RYWP",
-            imageSrc: "/images/committee/alice-mutoni.jpg"
+            imageSrc: "/images/Alice.jpg"
         },
         {
             name: "Patrick Tuyishime",
             title: "Communication",
             organization: "RYWP",
-            imageSrc: "/images/committee/patrick-tuyishime.jpg"
+            imageSrc: "/images/Patrick.jpg"
         },
         {
             name: "Rita Nishimwe",
             title: "Communication",
             organization: "RYWP",
-            imageSrc: "/images/committee/rita-nishimwe.jpg"
+            imageSrc: "/images/Rita.jpg"
         },
         {
             name: "Rutayisire A. Jenny",
             title: "Logistics",
             organization: "RYWP",
-            imageSrc: "/images/committee/rutayisire-jenny.jpg"
+            imageSrc: "/images/Jenny.jpg"
         },
         {
             name: "Umwali K. Alvine",
             title: "Logistics",
             organization: "RYWP",
-            imageSrc: "/images/committee/umwali-alvine.jpg"
+            imageSrc: "/images/Alvine.jpg"
         }
     ];
 
@@ -153,25 +153,25 @@ export default function Committees() {
                             name="Prof. Ignace GATARE"
                             title="Congress Chair"
                             organization="Principal, College of Science and Technology, University of Rwanda"
-                            imageSrc="/images/profile-placeholder.jpg"
+                            imageSrc="/images/ignace_gatare.jpg"
                         />
                         <CommitteeMember
                             name="Prof. Omar MUNYANEZA"
                             title="Congress Co-Chair"
                             organization="CEO, Water and Sanitation Corporation Group Ltd"
-                            imageSrc="/images/profile-placeholder.jpg"
+                            imageSrc="/images/Omar_Munyaneza.jpg"
                         />
                         <CommitteeMember
                             name="Prof. Philippe Gourbesville"
                             title="IAHR President"
                             organization="International Association for Hydro-Environment Engineering and Research"
-                            imageSrc="/images/profile-placeholder.jpg"
+                            imageSrc="/images/philippe_gourbesville.jpeg"
                         />
                         <CommitteeMember
                             name="Prof. Moez Louati"
                             title="Africa Division Chair"
                             organization="IAHR"
-                            imageSrc="/images/profile-placeholder.jpg"
+                            imageSrc="/images/Moez_Louati.jpg"
                         />
                     </div>
                 </div>
@@ -205,7 +205,7 @@ export default function Committees() {
                                     <img
                                         src={member.imageSrc}
                                         alt={member.name}
-                                        className="w-full h-full object-cover"
+                                        className="w-full h-full object-contain scale-125"
                                     />
                                 </div>
                                 <div className="p-4">

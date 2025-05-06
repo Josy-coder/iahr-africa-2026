@@ -180,14 +180,14 @@ export default function About() {
                                     Winners receive official recognition and a certificate of excellence proudly supported by Hohai University and the IAHR Africa Division.
                                 </p>
 
-                                <div className="bg-white p-6 rounded-lg">
-                                    <h4 className="font-bold text-gray-800 mb-4">PRIZES:</h4>
-                                    <ul className="list-disc pl-6 text-gray-700">
-                                        <li className="mb-2">1st Prize: $1,500</li>
-                                        <li className="mb-2">2nd Prize: $1,000</li>
-                                        <li className="mb-2">3rd Prize: $500</li>
-                                    </ul>
-                                </div>
+
+                                        <div className="bg-white flex flex-col justify-center items-center p-6 rounded-lg">
+                                            <img
+                                                src="/images/award_competition.jpg"
+                                                alt="Award Competition"
+                                                className="w-96 h-96 object-contain rounded-lg"
+                                            />
+                                        </div>
                             </div>
 
                             <div className="text-center mt-10">

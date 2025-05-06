@@ -15,7 +15,7 @@ const DivisionChair = () => {
                     >
                         <div className="rounded-full overflow-hidden w-48 h-48 bg-gray-200">
                             <img
-                                src="/images/profile-placeholder.jpg"
+                                src="/images/Moez_Louati.jpg"
                                 alt="Africa Division Chair"
                                 className="w-full h-full object-cover"
                             />

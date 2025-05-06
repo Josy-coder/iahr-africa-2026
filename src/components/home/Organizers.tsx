@@ -59,7 +59,7 @@ const Organizers = () => {
                         className="w-full md:w-1/4"
                     >
                         <img
-                            src="/images/water-partnership-rwanda-logo.png"
+                            src="/images/water_partnership_rwanda.png"
                             alt="Water Partnership Rwanda"
                             className="max-h-24 mx-auto"
                         />
@@ -73,7 +73,7 @@ const Organizers = () => {
                         className="w-full md:w-1/4"
                     >
                         <img
-                            src="/images/rwanda-young-water-professional-logo.png"
+                            src="/images/rywp.png"
                             alt="Rwanda Young Water Professional"
                             className="max-h-24 mx-auto"
                         />
@@ -85,21 +85,21 @@ const Organizers = () => {
                     <div className="flex flex-wrap justify-center items-center gap-8 mt-6">
                         <div className="w-full md:w-auto">
                             <img
-                                src="/images/wasac-logo.png"
+                                src="/images/wasac.png"
                                 alt="Water and Sanitation Corporation (WASAC) Group"
                                 className="max-h-16 mx-auto"
                             />
                         </div>
                         <div className="w-full md:w-auto">
                             <img
-                                src="/images/rwb-logo.png"
+                                src="/images/rwanda-water-resources-board-logo.png"
                                 alt="Rwanda Water Resources Board"
                                 className="max-h-16 mx-auto"
                             />
                         </div>
                         <div className="w-full md:w-auto">
                             <img
-                                src="/images/rema-logo.png"
+                                src="/images/rema.jpg"
                                 alt="Rwanda Environmental Management Authority"
                                 className="max-h-16 mx-auto"
                             />
