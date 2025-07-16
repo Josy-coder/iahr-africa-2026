@@ -249,13 +249,13 @@ const ThemeCongressPage = () => {
                         viewport={{ once: true }}
                         className="text-center mb-16"
                     >
-                        <h2 className="text-2xl font-bold text-text-primary mb-4 uppercase tracking-wide">
+                        <h2 className="text-2xl font-bold text-primary mb-4 uppercase tracking-wide">
                             CONGRESS SUB-THEMES AND TOPICS
                         </h2>
                         <div className="w-32 h-1 bg-primary mx-auto"></div>
                     </motion.div>
 
-                    <div className="space-y-20">
+                    <div className="space-y-1">
                         {subThemes.map((theme, index) => (
                             <motion.div
                                 key={index}
@@ -263,46 +263,19 @@ const ThemeCongressPage = () => {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.7, delay: 0.1 }}
                                 viewport={{ once: true }}
-                                className="bg-white rounded-lg shadow-lg overflow-hidden"
+                                className="bg-white overflow-hidden"
                             >
-                                <div className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
-                                    
-                                    <div className="w-full lg:w-2/3 p-8 lg:p-12">
-                                        <h3 className="text-2xl font-bold text-primary mb-8 uppercase leading-tight">
+                                <div className="flex flex-col items-center justify-start lg:flex-row">
+                                    <ul className="list-disc">
+                                        <li>
+                                    <div className="w-full">
+                                        <h3 className="text-lg font-bold text-text-secondary mb-4 uppercase leading-tight">
                                             {theme.title}
                                         </h3>
-
-                                        <div className="space-y-8">
-                                            {theme.topics.map((topic, topicIndex) => (
-                                                <div key={topicIndex}>
-                                                    <h4 className="text-xl font-bold text-text-primary mb-4 uppercase">
-                                                        {topic.category}
-                                                    </h4>
-                                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                                                        {topic.items.map((item, itemIndex) => (
-                                                            <div key={itemIndex} className="flex items-start">
-                                                                <span className="text-primary mr-3 mt-1 text-sm">▪</span>
-                                                                <span className="text-text-secondary text-sm leading-relaxed">
-                                                                    {item}
-                                                                </span>
-                                                            </div>
-                                                        ))}
-                                                    </div>
-                                                </div>
-                                            ))}
-                                        </div>
                                     </div>
+                                        </li>
+                                    </ul>
 
-                                    
-                                    <div className="w-full lg:w-1/3">
-                                        <div className="h-64 lg:h-full">
-                                            <img
-                                                src={theme.image}
-                                                alt={`Theme ${String.fromCharCode(65 + index)}`}
-                                                className="w-full h-full object-cover"
-                                            />
-                                        </div>
-                                    </div>
                                 </div>
                             </motion.div>
                         ))}
