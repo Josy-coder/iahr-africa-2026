@@ -7,10 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary': '#6ec1e4',
+        'primary': '#008bc9',
         'secondary': '#e94e1b',
         'tertiary': '#006c3f',
-        'quaternary': '#2b6cb0',
+        'quaternary': '#206080',
+        'text-primary': '#333333',
+        'text-secondary': '#666666',
+        'text-light': '#888888',
+        'section-gray': '#5c636a',
+        'border-gray': '#e5e5e5',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
@@ -33,4 +38,3 @@ module.exports = {
   },
   plugins: [],
 }
-

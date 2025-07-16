@@ -30,7 +30,7 @@ export default function Custom404() {
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                             <Link
                                 href="/"
-                                className="flex items-center px-6 py-3 bg-quaternary text-white rounded-md hover:bg-blue-700 transition-colors"
+                                className="flex items-center px-6 py-3 bg-quaternary text-white rounded-md  transition-colors"
                             >
                                 <Home size={18} className="mr-2" />
                                 Back to Home

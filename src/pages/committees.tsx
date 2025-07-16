@@ -26,9 +26,9 @@ const CommitteeMember: React.FC<CommitteeMemberProps> = ({ name, title, organiza
                 />
             </div>
             <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">{name}</h3>
+                <h3 className="text-xl font-bold text-text-primary mb-2">{name}</h3>
                 <p className="text-quaternary font-medium mb-2">{title}</p>
-                <p className="text-gray-600">{organization}</p>
+                <p className="text-text-primary">{organization}</p>
             </div>
         </motion.div>
     );
@@ -112,30 +112,14 @@ export default function Committees() {
 
     return (
         <Layout title="Committees - IAHR Africa Congress 2026">
-            {/* Hero Section */}
-            <div className="relative h-96 bg-cover bg-center" style={{ backgroundImage: "url('/images/committee-hero.jpeg')" }}>
-                <div className="absolute inset-0 bg-black/40"></div>
-                <div className="container mx-auto px-4 h-full relative">
-                    <div className="flex flex-col h-full justify-center">
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7 }}
-                            className="max-w-4xl"
-                        >
-                            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                                Congress Committees
-                            </h1>
-                            <p className="text-xl text-white">
-                                Meet the dedicated team of professionals organizing and guiding the 7th IAHR Africa Congress
-                            </p>
-                        </motion.div>
-                    </div>
+            <div className="bg-gray-50 py-12">
+                <div className="container mx-auto px-4">
+                    <nav className="text-text-secondary text-sm">
+                        <span>Home </span> / <span className="text-text-primary">Committee</span>
+                    </nav>
                 </div>
             </div>
-
-            {/* Main Chairs Section */}
-            <section className="py-16 px-4 bg-white">
+            <section className="py-8 px-2 bg-white">
                 <div className="container mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -144,7 +128,7 @@ export default function Committees() {
                         viewport={{ once: true }}
                         className="text-center mb-12"
                     >
-                        <h2 className="text-3xl font-bold text-gray-800 mb-4">Congress Chairs</h2>
+                        <h2 className="text-2xl font-bold text-text-primary mb-4">Congress Chairs</h2>
                         <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
                     </motion.div>
 
@@ -176,9 +160,7 @@ export default function Committees() {
                     </div>
                 </div>
             </section>
-
-            {/* Local Organizing Committee */}
-            <section className="py-16 px-4 bg-gray-50">
+            <section className="py-8 px-2 bg-gray-50">
                 <div className="container mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -187,7 +169,7 @@ export default function Committees() {
                         viewport={{ once: true }}
                         className="text-center mb-12"
                     >
-                        <h2 className="text-3xl font-bold text-gray-800 mb-4">Local Organizing Committee</h2>
+                        <h2 className="text-2xl font-bold text-gray-800 mb-4">Local Organizing Committee</h2>
                         <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
                     </motion.div>
 
@@ -219,8 +201,8 @@ export default function Committees() {
                 </div>
             </section>
 
-            {/* Scientific Committee */}
-            <section className="py-16 px-4 bg-white">
+            
+            <section className="py-8 px-2 bg-white">
                 <div className="container mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -229,7 +211,7 @@ export default function Committees() {
                         viewport={{ once: true }}
                         className="text-center mb-12"
                     >
-                        <h2 className="text-3xl font-bold text-gray-800 mb-4">Scientific Committee</h2>
+                        <h2 className="text-2xl font-bold text-text-primary mb-4">Scientific Committee</h2>
                         <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
                     </motion.div>
 
@@ -264,8 +246,8 @@ export default function Committees() {
                 </div>
             </section>
 
-            {/* International Advisory Board */}
-            <section className="py-16 px-4 bg-gray-50">
+            
+            <section className="py-8 px-2 bg-gray-50">
                 <div className="container mx-auto">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -274,7 +256,7 @@ export default function Committees() {
                         viewport={{ once: true }}
                         className="text-center mb-12"
                     >
-                        <h2 className="text-3xl font-bold text-gray-800 mb-4">International Advisory Board</h2>
+                        <h2 className="text-2xl font-bold text-text-primary mb-4">International Advisory Board</h2>
                         <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
                     </motion.div>
 

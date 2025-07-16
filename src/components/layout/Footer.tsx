@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className="bg-gray-200 text-gray-700">
             <div className="container mx-auto px-4 py-10">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    {/* About Section */}
+                    
                     <div>
                         <h3 className="text-xl font-semibold mb-4 text-gray-800">IAHR Africa Congress 2026</h3>
                         <p className="text-gray-600 mb-4">
@@ -25,20 +25,18 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Quick Links */}
+                    
                     <div>
                         <h3 className="text-xl font-semibold mb-4 text-gray-800">Quick Links</h3>
                         <ul className="space-y-2">
-                            <li><Link href="/about" className="text-gray-600 hover:text-quaternary transition">About</Link></li>
-                            <li><Link href="/program" className="text-gray-600 hover:text-quaternary transition">Program</Link></li>
-                            <li><Link href="/participate" className="text-gray-600 hover:text-quaternary transition">Participate</Link></li>
+                            <li><Link href="/" className="text-gray-600 hover:text-quaternary transition">Homepage</Link></li>
                             <li><Link href="/sponsorship" className="text-gray-600 hover:text-quaternary transition">Sponsorship</Link></li>
                             <li><Link href="/committees" className="text-gray-600 hover:text-quaternary transition">Committees</Link></li>
                             <li><Link href="/media" className="text-gray-600 hover:text-quaternary transition">Media</Link></li>
                         </ul>
                     </div>
 
-                    {/* Contact Info */}
+                    
                     <div>
                         <h3 className="text-xl font-semibold mb-4 text-gray-800">Contact Us</h3>
                         <div className="flex items-center space-x-2 text-gray-600 mb-2">

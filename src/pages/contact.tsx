@@ -13,7 +13,6 @@ export default function Contact() {
 
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitMessage, setSubmitMessage] = useState('');
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handleChange = (e: { target: { name: any; value: any; }; }) => {
         const { name, value } = e.target;
         setFormData((prev) => ({ ...prev, [name]: value }));
