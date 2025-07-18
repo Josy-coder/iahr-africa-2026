@@ -7,9 +7,10 @@ const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = [
-        { image: '/images/kigali-landscape.jpg', alt: 'Kigali Landscape' },
-        { image: '/images/kigali-green-city.jpg', alt: 'Kigali Green City' },
-        { image: '/images/conference.jpeg', alt: 'Conference Venue' }
+        { image: '/images/kigali-convention.jpeg', alt: 'Kigali Landscape' },
+        { image: '/images/gorilla-trekking-rwanda.jpg', alt: 'Gorilla Trekking in Rwanda' },
+        { image: '/images/gishwati-mukura-national-park.jpg', alt: 'Mount Bisoke' },
+
     ];
 
     React.useEffect(() => {
@@ -52,25 +53,7 @@ const Hero = () => {
                     className="bg-white/95 backdrop-blur-sm p-8 md:p-10 rounded-lg shadow-2xl max-w-lg mx-4 md:mx-0 md:mr-8"
                 >
                     <div className="flex justify-center mb-6">
-                        <img src="/images/iahr-logo.png" alt="IAHR Logo" className="h-16 md:h-20" />
-                    </div>
-                    <div className="text-center">
-                        <h1 className="text-2xl md:text-3xl font-bold text-primary mb-2">
-                            7TH IAHR AFRICA CONGRESS
-                        </h1>
-                        <h2 className="text-xl md:text-2xl font-bold text-orange-500 mb-1">KIGALI</h2>
-                        <h3 className="text-lg md:text-xl text-text-primary mb-6">RWANDA</h3>
-                        <div className="border-t border-b border-border-gray py-4 my-6">
-                            <p className="font-semibold text-text-primary text-sm md:text-base">
-                                Theme: Water Resilience & Innovation
-                            </p>
-                        </div>
-                        <p className="text-xl md:text-2xl font-bold text-text-primary">8 - 11 DECEMBER 2026</p>
-                        <div className="mt-8">
-                            <button className="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-md font-semibold transition-colors duration-300 shadow-lg">
-                                REGISTER NOW
-                            </button>
-                        </div>
+                        <img src="/images/sticker-2.png" alt="IAHR Logo" className="h-full" />
                     </div>
                 </motion.div>
             </div>

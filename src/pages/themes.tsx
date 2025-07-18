@@ -3,178 +3,6 @@ import { motion } from 'framer-motion';
 import Layout from "@/components/layout/Layout";
 
 const ThemeCongressPage = () => {
-    const subThemes = [
-        {
-            title: "SUB-THEME A: WATER ENGINEERING AND TECHNOLOGICAL INNOVATIONS",
-            topics: [
-                {
-                    category: "A.1 Climate Change Mitigation",
-                    items: [
-                        "A.1.1 Water Footprint Reduction",
-                        "A.1.2 Incorporation of Water-related Renewable Energies",
-                        "A.1.3 Energy Efficiencies to be Gained from Water Uses",
-                        "A.1.4 Carbon Sequestration and Storage in Aquatic Environments",
-                        "A.1.5 Reduction of Greenhouse Gas Emissions from Water Systems",
-                        "A.1.6 Other Related Topics"
-                    ]
-                },
-                {
-                    category: "A.2 Improving Resilience against Water Hazards and Natural Disasters",
-                    items: [
-                        "A.2.1 Coastal Processes and Hazards",
-                        "A.2.2 Hydraulic Structures and Processes",
-                        "A.2.3 Enhancements in Urban Drainage Systems",
-                        "A.2.4 Sediment Transport and Bathymetrical Changes Assessment",
-                        "A.2.5 Forecasting and Warning",
-                        "A.2.6 Disaster Risk Reduction",
-                        "A.2.7 Other Related Topics"
-                    ]
-                }
-            ],
-            image: "/images/kigali-landscape.jpg"
-        },
-        {
-            title: "SUB-THEME B: SUSTAINABLE WATER MANAGEMENT PRACTICES",
-            topics: [
-                {
-                    category: "B.1 Integrated Water Resources Management",
-                    items: [
-                        "B.1.1 Water Resources Planning and Allocation",
-                        "B.1.2 Watershed Management",
-                        "B.1.3 Groundwater Management",
-                        "B.1.4 Water Quality Management",
-                        "B.1.5 Transboundary Water Management",
-                        "B.1.6 Other Related Topics"
-                    ]
-                },
-                {
-                    category: "B.2 Water Supply Technologies and Services",
-                    items: [
-                        "B.2.1 Water Treatment Technologies",
-                        "B.2.2 Water Distribution Systems",
-                        "B.2.3 Rural Water Supply",
-                        "B.2.4 Water Storage Solutions",
-                        "B.2.5 Smart Water Systems",
-                        "B.2.6 Other Related Topics"
-                    ]
-                }
-            ],
-            image: "/images/kigali-green-city.jpg"
-        },
-        {
-            title: "SUB-THEME C: URBAN WATER SYSTEMS AND RESILIENCE",
-            topics: [
-                {
-                    category: "C.1 Urban Resilience in African Cities",
-                    items: [
-                        "C.1.1 Urban Water Infrastructure",
-                        "C.1.2 Stormwater Management",
-                        "C.1.3 Urban Heat Island Mitigation",
-                        "C.1.4 Green Infrastructure",
-                        "C.1.5 Smart City Water Solutions",
-                        "C.1.6 Other Related Topics"
-                    ]
-                },
-                {
-                    category: "C.2 Sanitation Technologies and Services",
-                    items: [
-                        "C.2.1 Wastewater Treatment Technologies",
-                        "C.2.2 Decentralized Sanitation Systems",
-                        "C.2.3 Resource Recovery from Wastewater",
-                        "C.2.4 Sanitation in Informal Settlements",
-                        "C.2.5 Circular Economy in Sanitation",
-                        "C.2.6 Other Related Topics"
-                    ]
-                }
-            ],
-            image: "/images/conference.jpeg"
-        },
-        {
-            title: "SUB-THEME D: ENVIRONMENTAL HYDRAULICS AND ECOSYSTEM MANAGEMENT",
-            topics: [
-                {
-                    category: "D.1 Wetlands and Critical Ecosystems Management",
-                    items: [
-                        "D.1.1 Wetland Restoration and Conservation",
-                        "D.1.2 Ecosystem Services Valuation",
-                        "D.1.3 Biodiversity Conservation",
-                        "D.1.4 River Corridor Management",
-                        "D.1.5 Lake and Reservoir Ecology",
-                        "D.1.6 Other Related Topics"
-                    ]
-                },
-                {
-                    category: "D.2 Nature-based Solutions",
-                    items: [
-                        "D.2.1 Green Infrastructure for Water Management",
-                        "D.2.2 Constructed Wetlands",
-                        "D.2.3 Bioretention Systems",
-                        "D.2.4 Living Shorelines",
-                        "D.2.5 Ecological Engineering",
-                        "D.2.6 Other Related Topics"
-                    ]
-                }
-            ],
-            image: "/images/committee-hero.jpeg"
-        },
-        {
-            title: "SUB-THEME E: FLOOD AND DROUGHT MANAGEMENT",
-            topics: [
-                {
-                    category: "E.1 Flood Risk Assessment and Management",
-                    items: [
-                        "E.1.1 Flood Modeling and Prediction",
-                        "E.1.2 Flood Control Infrastructure",
-                        "E.1.3 Early Warning Systems",
-                        "E.1.4 Community-based Flood Management",
-                        "E.1.5 Flood Insurance and Finance",
-                        "E.1.6 Other Related Topics"
-                    ]
-                },
-                {
-                    category: "E.2 Drought Management and Water Security",
-                    items: [
-                        "E.2.1 Drought Monitoring and Forecasting",
-                        "E.2.2 Water Conservation Strategies",
-                        "E.2.3 Alternative Water Sources",
-                        "E.2.4 Agricultural Water Management",
-                        "E.2.5 Emergency Water Supply",
-                        "E.2.6 Other Related Topics"
-                    ]
-                }
-            ],
-            image: "/images/sponsorship-hero.jpg"
-        },
-        {
-            title: "SUB-THEME F: DIGITAL WATER AND HYDROINFORMATICS",
-            topics: [
-                {
-                    category: "F.1 Data-Driven Methods and Machine Learning",
-                    items: [
-                        "F.1.1 AI in Water Management",
-                        "F.1.2 Big Data Analytics",
-                        "F.1.3 Predictive Modeling",
-                        "F.1.4 Remote Sensing Applications",
-                        "F.1.5 IoT in Water Systems",
-                        "F.1.6 Other Related Topics"
-                    ]
-                },
-                {
-                    category: "F.2 Digital Water Technologies",
-                    items: [
-                        "F.2.1 Smart Water Networks",
-                        "F.2.2 Digital Twins for Water Systems",
-                        "F.2.3 Blockchain in Water Management",
-                        "F.2.4 Mobile Water Applications",
-                        "F.2.5 Cyber Security in Water Systems",
-                        "F.2.6 Other Related Topics"
-                    ]
-                }
-            ],
-            image: "/images/media-hero.jpg"
-        }
-    ];
-
     return (
         <Layout title="Theme and Congress Topics">
             
@@ -247,41 +75,17 @@ const ThemeCongressPage = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.7 }}
                         viewport={{ once: true }}
-                        className="text-center mb-16"
+                        className="bg-white overflow-hidden flex justify-center"
                     >
-                        <h2 className="text-2xl font-bold text-primary mb-4 uppercase tracking-wide">
-                            CONGRESS SUB-THEMES AND TOPICS
-                        </h2>
-                        <div className="w-32 h-1 bg-primary mx-auto"></div>
+                        <img
+                            src="/images/programme.png"
+                            alt="Congress Sub-Themes and Topics"
+                            className="w-full max-w-5xl h-auto object-contain"
+                        />
                     </motion.div>
-
-                    <div className="space-y-1">
-                        {subThemes.map((theme, index) => (
-                            <motion.div
-                                key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.7, delay: 0.1 }}
-                                viewport={{ once: true }}
-                                className="bg-white overflow-hidden"
-                            >
-                                <div className="flex flex-col items-center justify-start lg:flex-row">
-                                    <ul className="list-disc">
-                                        <li>
-                                    <div className="w-full">
-                                        <h3 className="text-lg font-bold text-text-secondary mb-4 uppercase leading-tight">
-                                            {theme.title}
-                                        </h3>
-                                    </div>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                            </motion.div>
-                        ))}
-                    </div>
                 </div>
             </section>
+
         </Layout>
     );
 };

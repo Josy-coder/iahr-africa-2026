@@ -9,32 +9,32 @@ const VenuePage = () => {
         {
             name: "Akagera National Park",
             description: "Enjoy a thrilling Big Five safari, 2.5 hours from Kigali.",
-            icon: "🦁"
+            image: "/images/akagera.jpg",
         },
         {
             name: "Lake Kivu",
             description: "Kayak, take boat trips, or relax at lakeside resorts.",
-            icon: "🏞️"
+            image: "/images/lake-kivu.jpg",
         },
         {
             name: "Bisoke Crater Lake Hike",
             description: "Trek to the crater lake in Volcanoes National Park.",
-            icon: "🏔️"
+            image: "/images/mount-bisoke.jpg",
         },
         {
             name: "Gishwati-Mukura Biosphere Reserve",
             description: "Discover a UNESCO biodiversity treasure.",
-            icon: "🌿"
+            image: "/images/gishwati-mukura-national-park.jpg",
         },
         {
             name: "Gorilla Trekking",
             description: "Meet mountain gorillas in Volcanoes National Park.",
-            icon: "🦍"
+            image: "/images/gorilla-trekking-rwanda.jpg",
         },
         {
             name: "Nyungwe National Park",
             description: "Explore ancient rainforests and observe over 300 bird species.",
-            icon: "🌳"
+            image: "/images/nyungwe-forest-2.jpg",
         }
     ];
 
@@ -238,7 +238,13 @@ const VenuePage = () => {
                                 viewport={{ once: true }}
                                 className="bg-white shadow-md p-6 rounded-lg"
                             >
-                                <div className="text-4xl mb-4 text-center">{attraction.icon}</div>
+                                <div className="mb-4">
+                                    <img
+                                        src={attraction.image}
+                                        alt={attraction.name}
+                                        className="w-full h-48 object-cover rounded-lg"
+                                    />
+                                </div>
                                 <h3 className="text-xl font-bold mb-3 ">
                                     {attraction.name}
                                 </h3>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Layout from '@/components/layout/Layout'
+import Link from "next/link";
 
 const AboutIAHRPage = () => {
     return (
@@ -13,32 +14,6 @@ const AboutIAHRPage = () => {
                     </nav>
                 </div>
             </div>
-
-            
-            <div
-                className="relative h-96 bg-cover bg-center"
-                style={{ backgroundImage: "url('/images/kigali-landscape.jpg')" }}
-            >
-                <div className="absolute inset-0 bg-black/40"></div>
-                <div className="container mx-auto px-4 h-full relative">
-                    <div className="flex flex-col h-full justify-center">
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7 }}
-                            className="max-w-4xl"
-                        >
-                            <h1 className="text-2xl md:text-5xl font-bold text-white mb-6 uppercase">
-                                ABOUT IAHR
-                            </h1>
-                            <p className="text-xl text-white">
-                                International Association for Hydro-Environment Engineering and Research
-                            </p>
-                        </motion.div>
-                    </div>
-                </div>
-            </div>
-
             
             <section className="py-8 px-2 bg-white">
                 <div className="container mx-auto max-w-6xl">
@@ -51,6 +26,11 @@ const AboutIAHRPage = () => {
                             viewport={{ once: true }}
                             className="w-full lg:w-2/3"
                         >
+                            <img
+                                src="/images/sticker.png"
+                                alt="IAHR Header"
+                                className="h-32  object-contain"
+                            />
                             <h2 className="text-2xl font-bold text-text-primary mb-6 uppercase">
                                 WELCOME TO IAHR
                             </h2>
@@ -162,20 +142,6 @@ const AboutIAHRPage = () => {
                             viewport={{ once: true }}
                             className="w-full lg:w-1/3"
                         >
-                            
-                            <div className="bg-gray-50 p-8 rounded-lg mb-8 text-center">
-                                <img
-                                    src="/images/iahr-logo.png"
-                                    alt="IAHR Logo"
-                                    className="max-h-32 mx-auto mb-4"
-                                />
-                                <h3 className="text-xl font-bold text-text-primary mb-2">IAHR</h3>
-                                <p className="text-text-secondary text-sm">
-                                    International Association for Hydro-Environment Engineering and Research
-                                </p>
-                            </div>
-
-                            
                             <div className="bg-primary text-white p-6 rounded-lg mb-8">
                                 <h3 className="text-xl font-bold mb-4 uppercase">Quick Facts</h3>
                                 <div className="space-y-3">
@@ -185,15 +151,15 @@ const AboutIAHRPage = () => {
                                     </div>
                                     <div className="flex justify-between">
                                         <span>Members:</span>
-                                        <span className="font-semibold">4,000+</span>
+                                        <span className="font-semibold">5,000+</span>
                                     </div>
                                     <div className="flex justify-between">
                                         <span>Countries:</span>
-                                        <span className="font-semibold">70+</span>
+                                        <span className="font-semibold">90+</span>
                                     </div>
                                     <div className="flex justify-between">
                                         <span>Divisions:</span>
-                                        <span className="font-semibold">4</span>
+                                        <span className="font-semibold">6</span>
                                     </div>
                                 </div>
                             </div>
@@ -236,11 +202,13 @@ const AboutIAHRPage = () => {
 
                             <div className="bg-gray-50 p-6 rounded-lg">
                                 <h1 className="text-lg text-text-primary">Are you Interested in Joining IAHR</h1>
-                                <img
-                                    src="/images/iahr-conference-discount.jpg"
-                                    alt="Join IAHR"
-                                    className="w-full h-auto rounded-lg mt-4"
-                                />
+                                <Link href="https://www.iahr.org/index/sub/1710">
+                                    <img
+                                        src="/images/iahr-conference-discount.jpg"
+                                        alt="Join IAHR"
+                                        className="w-full h-auto rounded-lg mt-4"
+                                    />
+                                </Link>
 
                             </div>
                         </motion.div>
