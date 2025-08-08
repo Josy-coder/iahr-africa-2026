@@ -227,18 +227,12 @@ const ChairMessages = () => {
 
 const ThemesSection = () => {
     const themes = [
-        "Water Supply Technologies and Services",
-        "Sanitation Technologies and Services",
-        "Integrated Water Management and Planning",
-        "Urban Resilience in African Cities",
-        "Flood and Drought Management",
-        "Wetlands and Critical Ecosystems Management",
-        "Climate Mitigation and Adaptation",
-        "Nature-based Solutions",
-        "Digital Water",
-        "Data-Driven Methods and Machine Learning (Hydroinformatics)",
-        "Computational and Experimental methods",
-        "Remote Sensing and Field Measurements"
+        "Water supply technologies and services",
+        "Sanitation technologies and services",
+        "Integrated water management and planning",
+        "Urban resilience in African cities",
+        "Flood and drought management",
+        "Wetlands and critical ecosystems management"
     ];
 
     return (
