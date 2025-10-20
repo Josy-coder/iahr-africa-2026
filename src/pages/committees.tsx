@@ -134,16 +134,16 @@ export default function Committees() {
                             imageSrc="/images/ignace_gatare.jpg"
                         />
                         <CommitteeMember
-                            name="Francois X. Tetero"
-                            title="Congress Co-Chair"
-                            organization="Chairperson, GWP-Rwanda"
-                            imageSrc="/images/Tetero.jpg"
-                        />
-                        <CommitteeMember
                             name="Prof. Philippe Gourbesville"
                             title="IAHR President"
                             organization="International Association for Hydro-Environment Engineering and Research"
                             imageSrc="/images/philippe_gourbesville.jpeg"
+                        />
+                        <CommitteeMember
+                            name="Francois X. Tetero"
+                            title="Congress Co-Chair"
+                            organization="Chairperson, GWP-Rwanda"
+                            imageSrc="/images/Tetero.jpg"
                         />
                         <CommitteeMember
                             name="Prof. Moez Louati"
