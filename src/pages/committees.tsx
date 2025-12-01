@@ -37,6 +37,12 @@ const CommitteeMember: React.FC<CommitteeMemberProps> = ({ name, title, organiza
 export default function Committees() {
     const localOrganizingCommittee = [
         {
+            name: "Francois X. Tetero",
+            title: "Chair",
+            organization: "GWP-Rwanda",
+            imageSrc: "/images/Tetero.jpg"
+        },
+        {
             name: "Dr. Hussein Bizimana",
             title: "Co-Chair",
             organization: "UR-CST",
@@ -133,24 +139,24 @@ export default function Committees() {
                             organization="Principal, College of Science and Technology, University of Rwanda"
                             imageSrc="/images/ignace_gatare.jpg"
                         />
-                        <CommitteeMember
+                        {/*<CommitteeMember
                             name="Prof. Philippe Gourbesville"
                             title="IAHR President"
                             organization="International Association for Hydro-Environment Engineering and Research"
                             imageSrc="/images/philippe_gourbesville.jpeg"
-                        />
+                        />*/}
                         <CommitteeMember
                             name="Francois X. Tetero"
                             title="Congress Co-Chair"
                             organization="Chairperson, GWP-Rwanda"
                             imageSrc="/images/Tetero.jpg"
                         />
-                        <CommitteeMember
+                        {/*<CommitteeMember
                             name="Prof. Moez Louati"
                             title="Africa Division Chair"
                             organization="IAHR"
                             imageSrc="/images/Moez_Louati.jpg"
-                        />
+                        />*/}
                     </div>
                 </div>
             </section>
