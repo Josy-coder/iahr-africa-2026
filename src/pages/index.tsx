@@ -86,17 +86,17 @@ const ConferenceIntro = () => {
                     className="text-center mb-12 mt-6"
                 >
                     <h2 className="text-2xl  font-bold text-text-primary mb-6 mt-6 uppercase tracking-wide">
-                        41ST INTERNATIONAL ASSOCIATION FOR HYDRO-ENVIRONMENT ENGINEERING AND RESEARCH (IAHR) AFRICA CONGRESS (8-11 DECEMBER 2026)
+                      7TH INTERNATIONAL ASSOCIATION FOR HYDRO-ENVIRONMENT ENGINEERING AND RESEARCH (IAHR) AFRICA CONGRESS (8–11 DECEMBER 2026)
                     </h2>
                     <div className="max-w-4xl mx-auto">
                         <p className="text-text-secondary text-lg leading-relaxed mb-6">
-                            With the theme &#34;Water Resilience & Innovation&#34;, the 7th IAHR Africa Congress will be held from 8-11 December 2026 in Kigali, Rwanda. It aims to foster interdisciplinary dialogue, exchange cutting-edge knowledge, and explore innovative solutions to Africa&#39;s most pressing water-related challenges.
+                          With the theme “Water Resilience & Innovation,” the 7th IAHR Africa Congress will be held from 8–11 December 2026 in Kigali, Rwanda. The Congress will gather hydro-environment professionals across Africa and beyond to foster collaboration, innovation, and knowledge exchange on the continent’s most pressing water and environmental challenges.
                         </p>
                         <p className="text-text-secondary text-lg leading-relaxed mb-6">
-                            The Congress will address the multi-faceted challenges posed by the dynamic intersection of water resources management, climate change adaptation, and intricate interplay between water, energy, food security, and nature. It shall provide a platform for experts, researchers and practitioners from around the world to converge and share cutting-edge insights, groundbreaking research, and new solutions in the field of water engineering to meet these challenges.
+                          The Congress will explore the multi-faceted issues at the intersection of water resources management, climate resilience, and the links between water, energy, food security, and ecosystems. It will provide a platform for experts, researchers, practitioners, young professionals, and decision-makers to share cutting-edge insights, scientific research, and innovative solutions in hydro-environmental engineering and water management.
                         </p>
                         <p className="text-text-secondary text-lg leading-relaxed">
-                            By placing a spotlight on innovative water engineering, the Congress aims to contribute to the advancement of the Sustainable Development Goals (SDGs) in both rural and urban environments, towards resilience societies for the well-being of current and future generations.
+                          Rooted in the theme of innovation and resilience, the Congress aims to advance progress toward the Sustainable Development Goals and support both rural and urban communities in building climate-resilient, sustainable water futures.
                         </p>
                     </div>
                 </motion.div>
@@ -133,14 +133,16 @@ const PresidentMessage = () => {
                     >
                         <div className="rounded-full overflow-hidden w-48 h-48 mx-auto bg-gray-200">
                             <img
-                                src="/images/philippe_gourbesville.jpeg"
-                                alt="Prof. Philippe Gourbesville"
+                                src="/images/ignace_gatare.jpg"
+                                alt="Prof. Ignace GATARE"
                                 className="w-full h-full object-cover"
                             />
                         </div>
                         <div className="text-center mt-4">
-                            <h3 className="text-lg font-bold text-text-primary">Prof. Philippe Gourbesville</h3>
-                            <p className="text-primary font-medium">IAHR President</p>
+                            <h3 className="text-lg font-bold text-text-primary">Prof. Ignace GATARE</h3>
+                            <p className="text-primary font-medium">
+                              Congress Chair, 7th IAHR Africa Congress 2026                         
+                            </p>
                         </div>
                     </motion.div>
 
@@ -151,18 +153,24 @@ const PresidentMessage = () => {
                         viewport={{ once: true }}
                         className="w-full lg:w-3/4"
                     >
-                        <h3 className="text-xl font-bold text-primary mb-4">International Steering Group</h3>
+                        <h3 className="text-xl font-bold text-primary mb-4">Principal, College of Science and Technology – University of Rwanda</h3>
                         <div className="text-text-secondary leading-relaxed">
                             <p className="mb-4">
-                                On behalf of the International Association for Hydro-Environment Engineering and Research (IAHR), it is my great honor to invite you to the 7th IAHR Africa Congress in Kigali, Rwanda, from December 8th to 11th, 2026.
+                              Dear Friends and Colleagues,
+                              <br/>
+                              We are delighted to welcome you to the 7th Africa Congress of the International Association for Hydro-Environment Engineering and Research (IAHR), taking place in Kigali, Rwanda, from 8–11 December 2026.
+                            
                             </p>
                             {showFullMessage && (
                                 <>
                                     <p className="mb-4">
-                                        Following the success of our previous edition in Morocco, this congress continues to be a flagship event uniting leading experts, policymakers, and young professionals tackling climate resilience and water security challenges across Africa and globally. Your presence will enrich vital conversations and contribute to shaping innovative, actionable pathways for a better future.
+                                      This Congress represents a unique opportunity for collaboration, innovation, and knowledge exchange among Africa’s water and hydro-environment community. Under the theme “Water Resilience & Innovation,” we will reflect on the challenges and opportunities shaping the future of water on our continent, while elevating African solutions and global perspectives.
                                     </p>
                                     <p className="mb-4">
-                                        The event provides researchers, engineers, and decision makers the opportunity to share recent advances and experiences, identify emerging technology trends, and engage in lively debates.
+                                      The University of Rwanda is proud to co-host this prestigious event. As the country’s leading public university, UR is committed to advancing scientific excellence, innovation, and evidence-based policy that contributes to national and regional development.                             
+                                    </p>
+                                    <p className="mb-4">
+                                      Murakaza neza i Kigali — Welcome to Rwanda!
                                     </p>
                                 </>
                             )}
@@ -183,10 +191,16 @@ const PresidentMessage = () => {
 const ChairMessages = () => {
     const chairs = [
         {
-            name: "Prof. Ignace GATARE",
-            title: "Congress Chair, 7th IAHR Africa Congress 2026",
-            message: "The University of Rwanda stands as a beacon of excellence, shaping a new generation of leaders and innovators dedicated to Africa's sustainable development. Through a model anchored in research, innovation, and entrepreneurial spirit, our programs directly address the continent's pressing challenges — from food security to urban resilience, and climate-responsive public policies.",
-            image: "/images/ignace_gatare.jpg"
+            name: "Prof. Philippe Gourbesville",
+            title: "President, IAHR",
+            message: "The International Association for Hydro-Environment Engineering and Research is a global, independent organization founded in 1935 and dedicated to advancing water science, engineering, and innovation. With members spanning universities, research institutes, and industry, IAHR fosters collaboration through professional groups, scientific research, capacity development, and world-class conferences. Its mission is to promote sustainable water management and support cutting-edge hydro-environmental solutions for societies worldwide.",
+            image: "/images/philippe_gourbesville.jpeg"
+        },
+        {
+            name: "Prof. Moez Louati",
+            title: "Africa Division Chair, IAHR",
+            message: "The IAHR Africa Division works to strengthen IAHR’s presence on the continent by connecting African researchers, practitioners, and institutions to global networks of water expertise. Through programs such as the Africa Online Summer School, free memberships for African professionals, and high-level regional dialogues on water security, the Division is building a strong ecosystem of collaboration and capacity development. Its vision is to harness African knowledge, innovation, and partnerships to address the continent’s diverse water challenges.",
+            image: "/images/Moez_Louati.jpg"
         },
     ];
 
@@ -227,12 +241,13 @@ const ChairMessages = () => {
 
 const ThemesSection = () => {
     const themes = [
-        "Water supply technologies and services",
-        "Sanitation technologies and services",
-        "Integrated water management and planning",
-        "Urban resilience in African cities",
-        "Flood and drought management",
-        "Wetlands and critical ecosystems management"
+      "Water supply & Sanitation technologies and services", 
+      "Water Regulatory Services",
+      "Integrated water management and planning",
+      "Urban resilience in African cities",
+      "Flood and drought management",
+      "Wetlands and critical ecosystems management"
+
     ];
 
     return (
@@ -378,7 +393,7 @@ const KeepMeUpdated = () => {
                     viewport={{ once: true }}
                 >
                     <h3 className="text-xl font-bold mb-8 uppercase tracking-wide">
-                        ON BEHALF OF THE LOCAL ORGANIZING COMMITTEE OF THE 7TH IAHR AFRICA CONGRESS AND THE INTERNATIONAL ASSOCIATION FOR HYDRO-ENVIRONMENT ENGINEERING AND RESEARCH (IAHR), WE ARE DELIGHTED TO INVITE YOU TO JOIN THE 7TH IAHR AFRICA CONGRESS IN 2026 IN KIGALI, RWANDA.
+                      ON BEHALF OF THE LOCAL ORGANIZING COMMITTEE OF THE 7TH IAHR AFRICA CONGRESS AND THE INTERNATIONAL ASSOCIATION FOR HYDRO-ENVIRONMENT ENGINEERING AND RESEARCH (IAHR), WE ARE DELIGHTED TO INVITE YOU TO JOIN US IN KIGALI, RWANDA, FROM 8–11 DECEMBER 2026.
                     </h3>
                     <button className="border-2 border-white text-white hover:bg-white hover:text-quaternary px-8 py-3 rounded-md font-semibold transition-colors duration-300">
                         KEEP ME UPDATED
