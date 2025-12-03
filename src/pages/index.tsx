@@ -361,13 +361,13 @@ const AboutRwanda = () => {
                         <h2 className="text-3xl font-bold text-primary mb-6 uppercase">Welcome to Rwanda</h2>
                         <div className="text-text-secondary leading-relaxed space-y-4">
                             <p>
-                                Nestled at the heart of Africa, Rwanda stands as a testament to the harmonious coexistence of diverse cultures, progressive urban development, and a rich tapestry of history. The nation prides itself as a pivotal hub for innovation and sustainable development.
+                              Rwanda has emerged as one of Africa’s premier destinations for international conferences, hybrid meetings, and high-level events. With world-class venues, excellent connectivity, and warm hospitality, the country offers an ideal environment for participants attending the 7th IAHR Africa Congress 2026.
                             </p>
                             <p>
-                                Rwanda has established itself as the hub for hybrid meetings and conventions in Africa. Moreover, Rwanda is perceived as the leading African destination for first class incentives and events. Also, being one of the leading MICE destinations in Africa, Rwanda national airline flies to over 30 destinations and the network is growing.
+                              Kigali, the capital, is celebrated for its safety, cleanliness, and welcoming atmosphere. Getting around the city is easy and enjoyable, thanks to well-maintained roads, efficient public transport, and convenient ride-hailing services. Visitors often remark on how effortless it is to navigate Kigali and how organized the city feels.
                             </p>
                             <p>
-                                Kigali is easy to move around. Transport in Kigali has improved massively in recent years. High quality roads, decent traffic management, robust public transport, and the introduction of ride hailing apps make it easier than most major cities in Africa.
+                              Rwanda’s reputation as a top MICE (Meetings, Incentives, Conferences, and Exhibitions) destination continues to grow. RwandAir connects to more than 30 destinations, while major international carriers such as KLM, Qatar Airways, Emirates, Ethiopian Airlines, and Kenya Airways ensure seamless travel to and from Kigali. Delegates also benefit from a visitor-friendly visa policy, with a fully digital e-Visa system and visa on arrival for nationals of African Union, Commonwealth, and La Francophonie countries.
                             </p>
                         </div>
                         <Link href="/venue" >

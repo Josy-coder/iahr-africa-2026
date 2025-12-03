@@ -77,30 +77,23 @@ const VenuePage = () => {
 
                             <div className="space-y-6 text-text-secondary leading-relaxed">
                                 <p>
-                                    Nestled at the heart of Africa, Rwanda stands as a testament to the harmonious
-                                    coexistence of diverse cultures, progressive urban development, and a rich tapestry
-                                    of history. The nation prides itself as a pivotal hub for innovation and sustainable
-                                    development due to its strategic location in East Africa.
+                                  Rwanda has emerged as one of Africa’s premier destinations for international conferences, hybrid meetings, and high-level events. With world-class venues, excellent connectivity, and warm hospitality, the country offers an ideal environment for participants attending the 7th IAHR Africa Congress 2026.
                                 </p>
 
                                 <p>
-                                    Rwanda has established itself as the hub for hybrid meetings and conventions in Africa.
-                                    Moreover, Rwanda is perceived as the leading African destination for first class
-                                    incentives and events. Also, being one of the leading MICE destinations in Africa,
-                                    Rwanda national airline flies to over 30 destinations and the network is growing.
-                                    Major airlines that fly to Kigali international airport include KLM, Qatar, Emirates,
-                                    Ethiopian airline and Kenyan airlines. All these advantages make Rwanda an ideal
-                                    destination for the IAHR 2026 Africa Congress.
+                                  Kigali, the capital, is celebrated for its safety, cleanliness, and welcoming atmosphere. Getting around the city is easy and enjoyable, thanks to well-maintained roads, efficient public transport, and convenient ride-hailing services. Visitors often remark on how effortless it is to navigate Kigali and how organized the city feels.
                                 </p>
 
                                 <p>
-                                    Kigali is easy to move around. In fact, transport in Kigali has improved massively
-                                    in recent years. High quality roads, decent traffic management, robust public transport,
-                                    and the introduction of ride hailing apps making it easier than most major cities in
-                                    Africa. The city of Kigali has restored urban wetland / Ecotourism Parks that can be
-                                    considered in organizing the pre or post congress technical tours, to explore restored
-                                    ecosystems, including a fig forest of native species, rehabilitated streams, and ponds
-                                    for flood alleviation of the wetland and the reed-bed for pollution abatement of the wetland.
+                                  Rwanda’s reputation as a top MICE (Meetings, Incentives, Conferences, and Exhibitions) destination continues to grow. RwandAir connects to more than 30 destinations, while major international carriers such as KLM, Qatar Airways, Emirates, Ethiopian Airlines, and Kenya Airways ensure seamless travel to and from Kigali. Delegates also benefit from a visitor-friendly visa policy, with a fully digital e-Visa system and visa on arrival for nationals of African Union, Commonwealth, and La Francophonie countries.
+                                </p>
+                                
+                                <p>
+                                  Beyond the conference venues, Kigali offers a unique mix of nature and innovation. The city features restored urban wetlands and eco-parks that showcase Rwanda’s leadership in environmental conservation. These green spaces, including native fig forests, rehabilitated streams, ponds for flood control, and reed-bed systems for natural water purification, provide peaceful spots to walk, relax, or enjoy the city’s biodiversity.
+                                </p>
+                                
+                                <p>
+                                  For those looking to explore further, Rwanda’s natural wonders are truly unforgettable. Visitors can go on a Big Five safari in Akagera National Park, meet mountain gorillas in Volcanoes National Park, soak in the beauty of Lake Kivu, hike to Bisoke Crater Lake, or explore the rainforests of Nyungwe and Gishwati–Mukura. Every destination reflects Rwanda’s commitment to conservation, sustainability, and genuine hospitality.
                                 </p>
                             </div>
                         </motion.div>
