@@ -47,7 +47,7 @@ export default function Abstracts() {
       {/* Main Content */}
       <section className="py-16 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
-          {/* Introduction */}
+          {/* Introduction with Date/Location Card */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -55,23 +55,36 @@ export default function Abstracts() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <p className="text-lg text-gray-700 mb-4">
-              <strong>Dates:</strong> 8-11 December 2026
-              <br />
-              <strong>Location:</strong> Kigali, Rwanda
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              The International Association for Hydro-Environment Engineering
-              and Research (IAHR), Africa Division, invites researchers,
-              practitioners, industry professionals, young water professionals,
-              and policymakers to submit <strong>full papers</strong> for
-              presentation at the <strong>7th IAHR Africa Congress</strong>.
-            </p>
-            <p className="text-gray-700 leading-relaxed mt-4">
-              This Congress provides a high-visibility platform for sharing
-              innovations, research, and best practices that address Africa's
-              water and climate challenges.
-            </p>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+              <div className="lg:col-span-2">
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  The International Association for Hydro-Environment
+                  Engineering and Research (IAHR), Africa Division, invites
+                  researchers, practitioners, industry professionals, young
+                  water professionals, and policymakers to submit{" "}
+                  <strong>full papers</strong> for presentation at the{" "}
+                  <strong>7th IAHR Africa Congress</strong>.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  This Congress provides a high-visibility platform for sharing
+                  innovations, research, and best practices that address
+                  Africa's water and climate challenges.
+                </p>
+              </div>
+              <div className="bg-primary text-white rounded-lg p-6 shadow-lg">
+                <h3 className="text-xl font-bold mb-4">Event Details</h3>
+                <div className="space-y-3">
+                  <div>
+                    <p className="text-sm opacity-90">Dates</p>
+                    <p className="font-semibold text-lg">8-11 December 2026</p>
+                  </div>
+                  <div className="border-t border-white/20 pt-3">
+                    <p className="text-sm opacity-90">Location</p>
+                    <p className="font-semibold">Kigali, Rwanda</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </motion.div>
 
           {/* Congress Theme */}
@@ -111,9 +124,9 @@ export default function Abstracts() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-white border-2 border-gray-200 rounded-lg text-center p-4 hover:border-primary hover:shadow-md transition-all duration-300"
+                  className="bg-primary text-white rounded-lg text-center p-4 hover:bg-primary/90 hover:shadow-lg transition-all duration-300"
                 >
-                  <p className="text-sm text-gray-700 leading-snug">{theme}</p>
+                  <p className="text-sm leading-snug font-medium">{theme}</p>
                 </motion.div>
               ))}
             </div>
@@ -125,9 +138,9 @@ export default function Abstracts() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: (index + 4) * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-white border-2 border-gray-200 text-center rounded-lg p-4 hover:border-primary hover:shadow-md transition-all duration-300"
+                  className="bg-primary text-white text-center rounded-lg p-4 hover:bg-primary/90 hover:shadow-lg transition-all duration-300"
                 >
-                  <p className="text-sm text-gray-700 leading-snug">{theme}</p>
+                  <p className="text-sm leading-snug font-medium">{theme}</p>
                 </motion.div>
               ))}
             </div>
@@ -161,8 +174,8 @@ export default function Abstracts() {
                 Paper Structure
               </h2>
               <div className="w-24 h-1 bg-primary mb-6"></div>
-              <div className="bg-gray-50 rounded-lg p-6 shadow-md flex-grow">
-                <p className="text-gray-700 mb-4 font-semibold">
+              <div className="bg-primary/10 rounded-lg p-6 shadow-md flex-grow border border-primary/20">
+                <p className="mb-4 font-semibold text-gray-800">
                   Full papers should be structured as follows:
                 </p>
                 <ul className="space-y-2 text-gray-700">
@@ -222,8 +235,8 @@ export default function Abstracts() {
                 Paper Format and Submission Details
               </h2>
               <div className="w-24 h-1 bg-primary mb-6"></div>
-              <div className="bg-gray-50 rounded-lg p-6 shadow-md flex-grow">
-                <ul className="space-y-3 text-gray-700 mb-6">
+              <div className="bg-primary/10 rounded-lg p-6 shadow-md flex-grow border border-primary/20">
+                <ul className="space-y-3 mb-6 text-gray-700">
                   <li className="flex items-start">
                     <span className="font-semibold mr-2">Submission Type:</span>
                     <span>Full Paper (PDF)</span>
@@ -251,9 +264,9 @@ export default function Abstracts() {
                     </span>
                   </li>
                 </ul>
-                <div className="bg-blue-50 border-l-4 border-primary p-4">
-                  <p className="text-gray-700 font-semibold mb-2">Notes:</p>
-                  <ul className="list-disc list-inside space-y-1 text-gray-700 ml-2 text-sm">
+                <div className="bg-primary text-white border-l-4 border-primary p-4 rounded">
+                  <p className="font-semibold mb-2">Notes:</p>
+                  <ul className="list-disc list-inside space-y-1 ml-2 text-sm">
                     <li>All submitted papers will undergo peer review.</li>
                     <li>
                       Accepted papers will be presented at the Congress and
@@ -270,6 +283,33 @@ export default function Abstracts() {
             </motion.div>
           </div>
 
+          {/* Download Template Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            viewport={{ once: true }}
+            className="mb-12 -mx-4 px-4 py-12 bg-primary rounded-lg"
+          >
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl font-bold text-white mb-6">
+                Download Template
+              </h2>
+              <p className="text-white mb-6 leading-relaxed">
+                For presenters/speakers opting for an extended abstract, which
+                may be presented orally and published in IJRBM, please download
+                the template below.
+              </p>
+              <a
+                href="/IAHR-AC-paper-and-abstract-Template-2026.docx"
+                download
+                className="inline-block bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300 shadow-lg hover:shadow-xl"
+              >
+                Download Template
+              </a>
+            </div>
+          </motion.div>
+
           {/* Submission Procedure and Review Side by Side */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
             {/* Submission Procedure */}
@@ -284,7 +324,7 @@ export default function Abstracts() {
                 Submission Procedure
               </h2>
               <div className="w-24 h-1 bg-primary mb-6"></div>
-              <div className="bg-gray-50 rounded-lg p-6 shadow-md flex-grow">
+              <div className="bg-primary/10 rounded-lg p-6 shadow-md flex-grow border border-primary/20">
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-primary mr-2">•</span>
@@ -323,7 +363,7 @@ export default function Abstracts() {
                 Review and Publication
               </h2>
               <div className="w-24 h-1 bg-primary mb-6"></div>
-              <div className="bg-gray-50 rounded-lg p-6 shadow-md flex-grow">
+              <div className="bg-primary/10 rounded-lg p-6 shadow-md flex-grow border border-primary/20">
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-primary mr-2">•</span>
@@ -346,6 +386,44 @@ export default function Abstracts() {
               </div>
             </motion.div>
           </div>
+
+          {/* Submit Paper Section */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+            viewport={{ once: true }}
+            className="mb-12 -mx-4 px-4 py-12 bg-primary rounded-lg"
+          >
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl font-bold text-white mb-6 text-center">
+                Submit Your Paper
+              </h2>
+              <p className="text-white mb-6 leading-relaxed">
+                Your abstract should follow the template below. Please make sure
+                you select the theme with the subtheme to which your abstract
+                belongs as well as your presenting preference. Please note that
+                the Scientific Committee reserves the right to decide on the
+                final form of the presentation. A submission receipt is
+                automatically sent to the corresponding author right after
+                submission. Should you not receive this email, please contact
+                the Technical Secretariat, so we can make sure your submission
+                went through.
+              </p>
+              <div className="text-center">
+                <button
+                  disabled
+                  className="inline-block bg-white/30 text-white px-8 py-3 rounded-lg font-semibold cursor-not-allowed shadow-md"
+                  title="Submission link will be available soon"
+                >
+                  Submit your Abstract
+                </button>
+                <p className="text-white/80 text-sm mt-4 italic">
+                  Submission link will be available soon
+                </p>
+              </div>
+            </div>
+          </motion.div>
 
           {/* Important Dates and Why Submit/Student Awards Side by Side */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
@@ -377,14 +455,12 @@ export default function Abstracts() {
                       className="relative pl-16"
                     >
                       {/* Dot */}
-                      <div className="absolute left-3.5 top-1 w-6 h-6 bg-primary rounded-full border-4 border-white shadow-md"></div>
+                      <div className="absolute left-3.5 top-1 w-6 h-6 bg-white rounded-full border-4 border-primary shadow-md"></div>
 
                       {/* Content */}
-                      <div className="bg-white border-2 border-primary rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow">
-                        <h3 className="text-lg font-bold text-gray-800 mb-1">
-                          {item.event}
-                        </h3>
-                        <p className="text-md text-primary font-semibold">
+                      <div className="bg-primary text-white rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow">
+                        <h3 className="text-lg font-bold mb-1">{item.event}</h3>
+                        <p className="text-md font-semibold opacity-90">
                           {item.date}
                         </p>
                       </div>
