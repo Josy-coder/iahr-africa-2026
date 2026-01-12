@@ -776,13 +776,16 @@ export default function Sponsorship() {
             </motion.div>
 
             <div className="text-center">
-              <p className="text-quaternary font-medium mb-4">
+              <p className="text-quaternary font-medium mb-2">
                 <a
                   href="mailto:contact@iahr-af2026.com"
                   className="hover:underline"
                 >
                   contact@iahr-af2026.com
                 </a>
+              </p>
+              <p className="text-gray-700 font-medium mb-4">
+                Phone: +250 788 350 465 / +250 787 800 300
               </p>
               <Link
                 href="/contact"
