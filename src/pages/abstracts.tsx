@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Abstracts() {
   const importantDates = [
     {
-      event: "Full Paper Submission Deadline",
+      event: "Extended Abstracts submission deadline",
       date: "31 March 2026",
     },
     {
@@ -19,13 +19,12 @@ export default function Abstracts() {
   ];
 
   const subThemes = [
-    "Water supply technologies and sanitation systems",
-    "Integrated water resources management and planning",
-    "Urban water management and resilience in African cities",
-    "Flood, drought, and disaster risk mitigation",
-    "Wetlands and critical ecosystem management",
-    "Innovative modelling, hydroinformatics, and smart water systems",
-    "Water governance, policy, sustainability, and climate adaptation",
+    "Water supply & Sanitation technologies and services",
+    "Water Regulatory Services",
+    "Integrated water management and planning",
+    "Urban resilience in African cities",
+    "Flood and drought management",
+    "Wetlands and critical ecosystems management",
   ];
 
   return (
@@ -37,9 +36,9 @@ export default function Abstracts() {
       >
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-          <h1 className="text-4xl font-bold mb-6">Call for Papers</h1>
+          <h1 className="text-4xl font-bold mb-6">Call for Extended Abstracts</h1>
           <p className="text-xl text-center max-w-2xl px-4">
-            Submit your research for the 7th IAHR Africa Congress 2026
+            7th IAHR Africa Congress 2026
           </p>
         </div>
       </div>
@@ -58,17 +57,15 @@ export default function Abstracts() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
               <div className="lg:col-span-2">
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  The International Association for Hydro-Environment
-                  Engineering and Research (IAHR), Africa Division, invites
-                  researchers, practitioners, industry professionals, young
-                  water professionals, and policymakers to submit{" "}
-                  <strong>full papers</strong> for presentation at the{" "}
+                  The International Association for Hydro-Environment Engineering and Research (IAHR), 
+                  Africa Division, invites researchers, practitioners, industry professionals, young water professionals, 
+                  and policymakers to submit{" "}
+                  <strong>extended abstracts</strong> for presentation at the{" "}
                   <strong>7th IAHR Africa Congress</strong>.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  This Congress provides a high-visibility platform for sharing
-                  innovations, research, and best practices that address
-                  Africa's water and climate challenges.
+                  This Congress provides a high-visibility platform for sharing innovations, research, 
+                  and best practices addressing Africa’s water and climate challenges.
                 </p>
               </div>
               <div className="bg-primary text-white rounded-lg p-6 shadow-lg">
@@ -171,12 +168,12 @@ export default function Abstracts() {
               className="flex flex-col"
             >
               <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                Paper Structure
+                Abstract Structure
               </h2>
               <div className="w-24 h-1 bg-primary mb-6"></div>
               <div className="bg-primary/10 rounded-lg p-6 shadow-md flex-grow border border-primary/20">
                 <p className="mb-4 font-semibold text-gray-800">
-                  Full papers should be structured as follows:
+                  Abstracts should be structured as follows:
                 </p>
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start">
@@ -232,14 +229,14 @@ export default function Abstracts() {
               className="flex flex-col"
             >
               <h2 className="text-3xl font-bold text-gray-800 mb-4">
-                Paper Format and Submission Details
+                Abstract Format and Submission Details
               </h2>
               <div className="w-24 h-1 bg-primary mb-6"></div>
               <div className="bg-primary/10 rounded-lg p-6 shadow-md flex-grow border border-primary/20">
                 <ul className="space-y-3 mb-6 text-gray-700">
                   <li className="flex items-start">
                     <span className="font-semibold mr-2">Submission Type:</span>
-                    <span>Full Paper (PDF)</span>
+                    <span>Extend abstract (PDF)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="font-semibold mr-2">
@@ -251,31 +248,30 @@ export default function Abstracts() {
                     <span className="font-semibold mr-2">
                       Submission Deadline:
                     </span>
-                    <span>31 March 2026</span>
+                    <span>15 February 2026</span>
                   </li>
                   <li className="flex items-start">
                     <span className="font-semibold mr-2">Language:</span>
                     <span>English</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="font-semibold mr-2">Paper Length:</span>
+                    <span className="font-semibold mr-2">Abstract Length:</span>
                     <span>
-                      4-6 pages (including references, figures, and tables)
+                      2-4 pages (including references, figures, and tables)
                     </span>
                   </li>
                 </ul>
                 <div className="bg-primary text-white border-l-4 border-primary p-4 rounded">
                   <p className="font-semibold mb-2">Notes:</p>
                   <ul className="list-disc list-inside space-y-1 ml-2 text-sm">
-                    <li>All submitted papers will undergo peer review.</li>
+                    <li>All submitted abstracts will undergo peer review.</li>
                     <li>
-                      Accepted papers will be presented at the Congress and
-                      published in the official IAHR Congress Proceedings with a
+                      Accepted abstracts will be presented at the Congress and
+                      published in the official IAHR Congress Proceedings with
                       DOI.
                     </li>
                     <li>
-                      Authors are encouraged to provide a clear methodology,
-                      structured content, and relevant keywords.
+                      Authors are encouraged to provide a structured abstract, keywords, and clear methodology.
                     </li>
                   </ul>
                 </div>
